@@ -1,0 +1,8 @@
+- Goals:
+	- Personal: GA ready topo engine
+	- Unlock further use cases for topology engine
+	- Open it up to external contributors
+	- Team goals:
+		- Help onboard other members to our services
+		- Help/teach/assist others with backend develpment
+		- Lead AI first initiatives/workflows
