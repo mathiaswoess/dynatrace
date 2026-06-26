@@ -1,4 +1,4 @@
-# Timecockpit Backfill 2026-01
+# Timecockpit 2026-01
 
 ## 2026-01-01
 - No timecockpit entries found.

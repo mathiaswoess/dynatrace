@@ -18,9 +18,9 @@ BASE_URL = "https://api.timecockpit.com"
 DEFAULT_USER_UUID = "2edda6e5-39aa-446f-a8e7-fd29303a3449"
 ROOT_DIR = Path(__file__).resolve().parents[1]
 PAGES_DIR = ROOT_DIR / "pages"
-INDEX_PAGE = PAGES_DIR / "Timecockpit Backfill.md"
-PAGE_NAME_TEMPLATE = "Timecockpit Backfill {month}.md"
-INDEX_LINK_TEMPLATE = "- [[Timecockpit Backfill {month}]]"
+INDEX_PAGE = PAGES_DIR / "Timecockpit.md"
+PAGE_NAME_TEMPLATE = "Timecockpit {month}.md"
+INDEX_LINK_TEMPLATE = "- [[Timecockpit {month}]]"
 TYPE_LABELS = {
     "0ad94cf7-955c-45dc-b49e-20be0f449b75": "Home Office",
     "cd4f750b-85f8-41f8-b193-9c82e23f82eb": "Office",
@@ -363,7 +363,7 @@ def build_page_content(
     for day, label in absences:
         absence_by_day.setdefault(day, []).append(f"- {label}")
 
-    lines = [f"# Timecockpit Backfill {month_range.month}", ""]
+    lines = [f"# Timecockpit {month_range.month}", ""]
     current = month_range.start
     while current <= display_end:
         lines.append(f"## {current.isoformat()}")
@@ -427,15 +427,15 @@ def update_index(month_range: MonthRange) -> None:
     if INDEX_PAGE.exists():
         lines = INDEX_PAGE.read_text(encoding="utf-8").splitlines()
     else:
-        lines = ["# Timecockpit Backfill", ""]
+        lines = ["# Timecockpit", ""]
 
-    existing_links = [line for line in lines if line.startswith("- [[Timecockpit Backfill ")]
+    existing_links = [line for line in lines if line.startswith("- [[Timecockpit ")]
     if link not in existing_links:
         existing_links.append(link)
     existing_links.sort()
 
     INDEX_PAGE.write_text(
-        "# Timecockpit Backfill\n\n" + "\n".join(existing_links) + "\n",
+        "# Timecockpit\n\n" + "\n".join(existing_links) + "\n",
         encoding="utf-8",
     )
 
