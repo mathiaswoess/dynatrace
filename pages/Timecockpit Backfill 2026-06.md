@@ -25,9 +25,18 @@
 - 15:00-16:00 Office: EU Pay Transparency Directive | Info Session [2/2] (APPOBS-921)
 - 16:00-16:45 Office: Work on NITO branch after failures (APPOBS-33638)
 
+## 2026-06-04
+- No timecockpit entries found.
+
 ## 2026-06-05
 - 08:15-10:30 Home Office: Debug issues with NITO (APPOBS-33886)
 - 12:15-16:45 Home Office: Implement support for firestore RTI linking (APPOBS-36117)
+
+## 2026-06-06
+- No timecockpit entries found.
+
+## 2026-06-07
+- No timecockpit entries found.
 
 ## 2026-06-08
 - 07:45-09:45 Office: Gather results from latest NITO run and investigate remaining issues (APPOBS-33886)
@@ -73,10 +82,10 @@
 - No timecockpit entries found.
 
 ## 2026-06-15
-- No timecockpit entries found.
+- All day: Vacation
 
 ## 2026-06-16
-- No timecockpit entries found.
+- All day: Vacation
 
 ## 2026-06-17
 - 08:20-09:00 Office: Sync with team (APPOBS-33613)
@@ -117,3 +126,30 @@
 - 11:00-12:00 Home Office: PR reviews (APPOBS-33613)
 - 12:30-15:00 Home Office: Write helper script for load tests, start more after optimization (APPOBS-33638)
 - 15:00-17:30 Home Office: Performance optimization related to reading feature flags (APPOBS-36739)
+
+## 2026-06-24
+- 08:15-10:00 Office: Create two more quick win optimizations (APPOBS-36739)
+- 10:00-11:00 Office: Topology-engine standup / cluster scaling (APPOBS-33613)
+- 11:00-11:30 Office: Check NITO self-service results (APPOBS-33638)
+- 12:00-15:30 Office: Do JMH benchmarks locally to find further hotspots (APPOBS-36739)
+- 15:30-16:00 Office: Check-in on topo load tests (APPOBS-33613)
+- 16:00-16:45 Office: Sync on SucessFactor goals (APPOBS-921)
+- 16:45-17:15 Office: PR reviews (APPOBS-33613)
+
+## 2026-06-25
+- 08:15-09:15 Office: Catch up, coffe, discussions (APPOBS-33613)
+- 09:15-10:00 Office: Investigate scaling issue beyond 6 pods with the NITO self-service cluster (APPOBS-35279)
+- 10:00-11:00 Office: AppObs - Capability Demo (APPOBS-921)
+- 11:00-12:00 Office: Topology-engine standup (APPOBS-33613)
+- 12:30-13:30 Office: Investigate CWS bottleneck (APPOBS-33886)
+- 13:30-14:30 Office: AI Connect: #13 - The Human Side of AI at Speed (APPOBS-921)
+- 14:30-15:15 Office: Team coffee and sync (APPOBS-33613)
+- 15:15-18:00 Office: Further optimizations in CWS pattern (APPOBS-33886)
+
+## 2026-06-26
+- 08:30-10:00 Doctor: Dermatologist appointment
+- 10:30-10:45 Home Office: Catch up on Slack messages (APPOBS-33613)
+- 10:45-11:15 Home Office: Topology-engine standup (APPOBS-33613)
+- 11:15-12:00 Home Office: Submit SuccessFactor goals (APPOBS-916)
+- 12:30-13:00 Home Office: Journaling improvements (APPOBS-33613)
+- 13:00-13:30 Home Office: Watch AI connect (APPOBS-921)
