@@ -6,3 +6,10 @@
 		- Help onboard other members to our services
 		- Help/teach/assist others with backend develpment
 		- Lead AI first initiatives/workflows
+-
+-
+- ## Todo:
+- Better error handling for CWS patter?
+- Provide OTel CWS pattern example
+- First ever ADR^^
+-
