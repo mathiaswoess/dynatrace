@@ -9,6 +9,5 @@
 -
 -
 - ## Todo:
-- Better error handling for CWS patter?
 - Provide OTel CWS pattern example
 -
