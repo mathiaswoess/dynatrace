@@ -11,3 +11,14 @@
 - ## Todo:
 - Provide OTel CWS pattern example
 - Update AGENTS.md before PR
+-
+-
+- ### PR:
+- add ADR-021 for YAML-topology-driven local-infra DSL
+- YAML topology DSL: spec parser, node types, trace walker
+- topology graph model - call graph assembly, infra factory, RTI attributes
+- replace random generators with topology-driven emission
+- wire topology model into config, mock Grail, and visualization
+- fix issue in regex due to `DB_DATABSE_DB2` containing a digit
+  
+  Refs: APPOBS-37897
