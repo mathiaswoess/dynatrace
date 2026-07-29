@@ -2,7 +2,7 @@
 - ## Todo:
 - Provide OTel CWS pattern example
 - Logs link with multiple tenants
--
+- Use real oauth secret in nito
 -
 -
 - ### Goals:
