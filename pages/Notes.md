@@ -10,7 +10,7 @@
 -
 - ## Todo:
 - Provide OTel CWS pattern example
-- Update AGENTS.md before PR
+- Logs link with multiple tenants
 -
 -
 - ### PR:
