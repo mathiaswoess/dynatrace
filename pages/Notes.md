@@ -1,8 +1,8 @@
--
-- ## Todo:
+## Todo:
 - Provide OTel CWS pattern example
 - Logs link with multiple tenants
 - Use real oauth secret in nito
+- Share skills and scripts
 -
 - ### PR
 - Add required deployment, Kafka resources and sealed secrets
