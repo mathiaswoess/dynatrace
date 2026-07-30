@@ -4,7 +4,7 @@
 - Use real oauth secret in nito
 - Share skills and scripts
 - Make local infra report metrics to wlg
--
+- Discuss Parent topic
 -
 -
 -
