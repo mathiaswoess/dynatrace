@@ -3,11 +3,8 @@
 - Logs link with multiple tenants
 - Use real oauth secret in nito
 - Share skills and scripts
+- Make local infra report metrics to wlg
 -
-- ### PR
-- Add required deployment, Kafka resources and sealed secrets
-- Deply topology-engine, in its own namespace, alongside deus services (with a template file injecting `nito_ingress_hostname` as grail query endpoint)
-- Allocate new node size group with exact replica count to ensure the `24Gi` memory required by the topology engine
 -
 -
 -
