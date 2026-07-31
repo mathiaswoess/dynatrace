@@ -1,4 +1,5 @@
 ## Todo:
+- Re-run CWS on tiny and with cws after rebase and add comment
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - Make local infra report metrics to wlg
