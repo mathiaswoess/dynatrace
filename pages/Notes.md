@@ -3,6 +3,7 @@
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - Make local infra report metrics to wlg
+- PR for objectcache-service FF fix
 -
 - Revert value file PRs
 -
