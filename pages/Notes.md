@@ -19,7 +19,10 @@
 - Extend local-infra with new profile to self-monitor it without cluster
 - Co-Created-With: IntelliJ IDEA 2026.2.0.1 norely@jetbrains.com
 -
--
+- ### 1:1
+- Oncall duty
+- Office relocation, future office
+- Career opportunities
 -
 -
 - ### Goals:
