@@ -21,7 +21,6 @@
 -
 - ### 1:1
 - Office relocation, future office
-- Career opportunities
 - Future value stream
 - Topic focus - Christan as architect
 -
