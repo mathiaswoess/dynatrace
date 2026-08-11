@@ -20,12 +20,13 @@
 - Co-Created-With: IntelliJ IDEA 2026.2.0.1 norely@jetbrains.com
 -
 - ### 1:1
-- Oncall duty
 - Office relocation, future office
 - Career opportunities
 - Future value stream
 - Topic focus - Christan as architect
 -
+-
+- **Most important:** IMPACT, team, capability, company -> brag
 -
 - ### Goals:
 	- Personal: GA ready topo engine
@@ -35,4 +36,5 @@
 		- Help onboard other members to our services
 		- Help/teach/assist others with backend develpment
 		- Lead AI first initiatives/workflows
+-
 -
