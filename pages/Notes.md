@@ -12,11 +12,10 @@
 - Cross-Tenant-Join
 - Primary grail rollout
 - Database metrics
--
+- Discuss Parent topic (rtr-parent double processing)
 -
 - Revert value file PRs
 -
-- Discuss Parent topic (rtr-parent double processing)
 - Extend local-infra with new profile to self-monitor it without cluster
 - Co-Created-With: IntelliJ IDEA 2026.2.0.1 norely@jetbrains.com
 -
