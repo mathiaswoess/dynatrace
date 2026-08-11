@@ -37,4 +37,3 @@
 		- Help/teach/assist others with backend develpment
 		- Lead AI first initiatives/workflows
 -
--
