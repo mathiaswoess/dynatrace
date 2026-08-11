@@ -4,11 +4,14 @@
 - Use real oauth secret in nito
 - Make local infra report metrics to wlg
 - PR for objectcache-service FF fix
+-
 - Security context
 - new member
 - HOST/PROCESS
 - Service2Service
 - Cross-Tenant-Join
+- Primary grail rollout
+- Database metrics
 -
 -
 - Revert value file PRs
