@@ -5,7 +5,7 @@
 - PR for objectcache-service FF fix
 -
 - Security context
-- new member
+- New member
 - HOST/PROCESS
 - Service2Service
 - Cross-Tenant-Join
