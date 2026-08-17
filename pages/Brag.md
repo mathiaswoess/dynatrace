@@ -1,6 +1,8 @@
 - Successfully deliver all expected features for the topology-engine at the targeted release sprint
 - Enable the topology engine in all prod clusters without major interruptions or impact
 - Coordinate with SRE about resource increases and requirements to enable the topology engine everywhere
+- Perform backporting and hotfixing of urgent fixes and improvements into all rollout stages without any interruptions or rollbacks
+- Optimize the topology-engine for best performance, minimal memory overhead and lean resource usage
 -
 - Enable load testing of modern 3rd-gen only ingest for dynamic topology patterns
 	- New clusterworkloadsimulator pattern to ingest directly into 3rd gen
