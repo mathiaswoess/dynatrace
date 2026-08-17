@@ -10,7 +10,7 @@
 -
 - Security context
 - New member
-- HOST/PROCESS
+- HOST/PROCESS ff activation
 - Service2Service
 - Cross-Tenant-Join
 - Primary grail rollout
