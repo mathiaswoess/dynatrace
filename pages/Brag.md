@@ -1,3 +1,7 @@
+- Successfully deliver all expected features for the topology-engine at the targeted release sprint
+- Enable the topology engine in all prod clusters without major interruptions or impact
+- Coordinate with SRE about resource increases and requirements to enable the topology engine everywhere
+-
 - Enable load testing of modern 3rd-gen only ingest for dynamic topology patterns
 	- New clusterworkloadsimulator pattern to ingest directly into 3rd gen
 	- Instead of pre-downloaded and automatically repeated, arbitrary BALIS segments, creates on-demand dynamic traces for a YAML-defined structure
