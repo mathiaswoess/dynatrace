@@ -1,2 +1,7 @@
-- Enable load testing of mod
+- Enable load testing of modern 3rd-gen only ingest for dynamic topology patterns
+	- New clusterworkloadsimulator pattern to ingest directly into 3rd gen
+	- Instead of pre-downloaded and automatically repeated, arbitrary BALIS segments, creates on-demand dynamic traces for a YAML-defined structure
+	- Optimized for high throughput
+	- Dynamically enriches each produced span with the necessary a
+	- Also enables testing of the runs_on/belongs_to relationships emitted by ppx
 -
