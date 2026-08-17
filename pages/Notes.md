@@ -5,7 +5,7 @@
 - PR for objectcache-service FF fix
 -
 - Roll up with custom Aggregator in PPX
-- Don't write separ
+- Don't write separate ones in rollup
 -
 - Security context
 - New member
