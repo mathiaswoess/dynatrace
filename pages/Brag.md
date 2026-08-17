@@ -4,6 +4,7 @@
 	- Optimized for high throughput
 	- Dynamically enriches each produced span with the necessary attributes expected by the 2nd gen cluster, allowing for easy switch to 3rd-gen OpenPipeline cluster
 	- Also enables testing of the runs_on/belongs_to relationships emitted by ppx
--
+- Enable automatic regression testing for dynamic smartscape edges
 - Configure NITO self-service clusters to always install the topology-engine to mirror the state on prod to deliver static and dynamic edges based on span ingest
-- Significantly deliver
+- Significantly contribute to deus-self-service repository do eliminate warnings and errors through missing configuration overrides, allowing future users of NITO self-service to get off the ground faster
+-
