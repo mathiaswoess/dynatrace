@@ -2,6 +2,8 @@
 	- New clusterworkloadsimulator pattern to ingest directly into 3rd gen
 	- Instead of pre-downloaded and automatically repeated, arbitrary BALIS segments, creates on-demand dynamic traces for a YAML-defined structure
 	- Optimized for high throughput
-	- Dynamically enriches each produced span with the necessary a
+	- Dynamically enriches each produced span with the necessary attributes expected by the 2nd gen cluster, allowing for easy switch to 3rd-gen OpenPipeline cluster
 	- Also enables testing of the runs_on/belongs_to relationships emitted by ppx
 -
+- Configure NITO self-service clusters to always install the topology-engine to mirror the state on prod to deliver static and dynamic edges based on span ingest
+- Significantly deliver
