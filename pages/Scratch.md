@@ -1,3 +1,4 @@
 - if the span is an error, its full finalCount is added to both the total count and the error count. If not an error, the error contribution is 0.
 - follow-up PR for contributor name
 - Remove convenience constructor
+-
