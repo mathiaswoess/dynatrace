@@ -1,2 +1,5 @@
--
+- Stale agents.md comment
+- One commit instead of 3
+- better commit message - git cliff
+- Why two topics?
 -
