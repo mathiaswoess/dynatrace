@@ -7,3 +7,4 @@
 - ITILogicAutoConfiguration does not exist (afterName)
 - ITIKafkaAutoConfiguration (stale comment)
 - Check local infra working / extended?
+- please squash commits
