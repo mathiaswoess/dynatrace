@@ -5,3 +5,4 @@
 - Topic names in jira are outdated and there's practically no description - it matters
 - missing ITILinker implementation on purpose? only interface. (probably ITIRelationshipTypeMapping should be used in it?)
 - ITILogicAutoConfiguration does not exist (afterName)
+- ITIKafkaAutoConfiguration ()
