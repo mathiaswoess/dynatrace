@@ -1,5 +1,5 @@
 - Stale agents.md comment
-- One commit instead of 3
+- One commit instead of 3 - we use rebase not merge/squash commits
 - better commit message - git cliff
 - Why two topics?
 -
