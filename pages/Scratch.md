@@ -1,6 +1,6 @@
-- Stale agents.md comment
 - One commit instead of 3 - we use rebase not merge/squash commits
 - better commit message - git cliff
+- Stale agents.md comment
 - Why two topics?
 - Topic names in jira are outdated and there's practically no description - it matters
--
+- missing ITILinker on purpose? only interface.
