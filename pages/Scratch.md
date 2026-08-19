@@ -2,6 +2,3 @@
 - follow-up PR for contributor name
 - Remove convenience constructor
 -
-- Only do caffeine
-- Need to be precise in your definitions. Especially for the agent (e.g. Rocksdb in RTI)
-- RocksDB needs lots of tuning - don't do it.
