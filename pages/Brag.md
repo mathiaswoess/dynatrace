@@ -15,3 +15,4 @@
 - Configure NITO self-service clusters to always install the topology-engine to mirror the state on prod to deliver static and dynamic edges based on span ingest
 - Significantly contribute to deus-self-service repository do eliminate warnings and errors through missing configuration overrides, allowing future users of NITO self-service to get off the ground faster
 -
+- Collaborate with cross-capability teams (e.g. CWS and InfraObs teams) and coordinate common goals and ways
