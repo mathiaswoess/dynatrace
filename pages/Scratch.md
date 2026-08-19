@@ -3,4 +3,5 @@
 - Stale agents.md comment
 - Why two topics?
 - Topic names in jira are outdated and there's practically no description - it matters
-- missing ITILinker im on purpose? only interface. (probably ITIRelationshipTypeMapping should be used in it)
+- missing ITILinker implementation on purpose? only interface. (probably ITIRelationshipTypeMapping should be used in it?)
+- ITILogicAutoConfiguration does not exist (afterName)
