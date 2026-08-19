@@ -6,6 +6,7 @@
 - Roll up with custom Aggregator in PPX
 - Don't write separate ones in rollup
 - Count error count and gauge
+- Follow-up PR for contributor name
 -
 - Security context
 - New member
