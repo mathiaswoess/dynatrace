@@ -4,6 +4,7 @@
 - Perform backporting and hotfixing of urgent fixes and improvements into all rollout stages without any interruptions or rollbacks
 - Optimize the topology-engine for best performance, minimal memory overhead and lean resource usage
 - Deliver database query error count and duration metrics necessary for effective root cause analysis and causal AI and for feature parity of the displayed data in the database app without relying on the 2nd gen cluster. This speeds up the transition of our customers to pure 3rd gen clusters.
+- Identify and fix a double-booking issue where database leaf client spans also landed in the topology-engine's parent topic (due to being span-kind client). This
 -
 - Enable load testing of modern 3rd-gen only ingest for dynamic topology patterns
 	- New clusterworkloadsimulator pattern to ingest directly into 3rd gen
