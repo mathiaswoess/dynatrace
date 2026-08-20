@@ -2,6 +2,7 @@
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - PR for objectcache-service FF fix
+- Dependency Lib bump
 -
 - Roll up with custom Aggregator in PPX
 - Don't write separate ones in rollup
