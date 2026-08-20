@@ -8,3 +8,5 @@
 - ITIKafkaAutoConfiguration (stale comment)
 - Check local infra working / extended?
 - please squash commits
+- No docs?
+-
