@@ -2,7 +2,7 @@
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - PR for objectcache-service FF fix
-- Dependency Lib bump
+- Dependency Lib bump happens automatically. Gets published on draft PRs (should I not have tagged it?)
 -
 - Roll up with custom Aggregator in PPX
 - Don't write separate ones in rollup
