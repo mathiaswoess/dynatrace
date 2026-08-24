@@ -2,4 +2,6 @@
 - rename buildConsumerConfig to buildItiConsumerConfig
 - dt.entity_type
 - Look at the big picture, the architecture, cross system, until it clicks for me
--
+- Lot's of code duplication, but I guess we can take care of that in a future PR
+- Are getProcessorType and pipeline ID written?
+- Metrics defined?
