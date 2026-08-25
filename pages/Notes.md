@@ -13,6 +13,8 @@
 -
 - Revert value file PRs
 -
+- Keep in mind: CPU request 4000m needed?
+-
 - Extend local-infra with new profile to self-monitor it without cluster
 - Co-Created-With: IntelliJ IDEA 2026.2.0.1 norely@jetbrains.com
 -
