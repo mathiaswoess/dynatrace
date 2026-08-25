@@ -2,6 +2,7 @@
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - PR for objectcache-service FF fix
+- Check AD alert
 -
 - Security context
 - New member
