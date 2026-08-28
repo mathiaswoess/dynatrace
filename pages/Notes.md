@@ -6,6 +6,7 @@
 - Remove metricValue and only do value again in metric
 - Array support and primary_tags
 - Repository rules
+- Update metric docs and feature flag docs
 -
 - Security context
 - New member
