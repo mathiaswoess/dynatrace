@@ -5,6 +5,7 @@
 - Check [AD alert](https://dynatrace.slack.com/archives/C0BNRFDR82W/p1786693027928739?thread_ts=1786692900.298999&cid=C0BNRFDR82W)
 - Remove metricValue and only do value again in metric
 - Array support and primary_tags
+- Repository rules
 -
 - Security context
 - New member
