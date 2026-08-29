@@ -8,7 +8,7 @@
 - Repository rules
 - Update metric docs and feature flag docs
 - Update cws config scopes regularly
-- Aggregation
+- AggregationCount is actually not deprecated as extraction attribute
 -
 - Security context
 - New member
