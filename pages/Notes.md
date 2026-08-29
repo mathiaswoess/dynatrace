@@ -7,6 +7,7 @@
 - Array support and primary_tags
 - Repository rules
 - Update metric docs and feature flag docs
+- Update cws config scopes regularly
 -
 - Security context
 - New member
