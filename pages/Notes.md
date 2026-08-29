@@ -8,6 +8,7 @@
 - Repository rules
 - Update metric docs and feature flag docs
 - Update cws config scopes regularly
+- Aggregation
 -
 - Security context
 - New member
