@@ -19,17 +19,31 @@ log() {
 	printf '%b\n' "$1"
 }
 
-git add -A
+git fetch origin main 2>/dev/null
 
-if git diff --cached --quiet; then
-	log "${green}No changes. Nothing to commit.${nc}"
+git add -A
+if ! git diff --cached --quiet; then
+	log "Committing staged changes..."
+	git commit -m "chore: auto-commit $(date +%Y-%m-%d)" || exit 1
+fi
+
+if git diff --quiet origin/main..HEAD; then
+	log "${green}No changes since origin/main. Nothing to do.${nc}"
 	exit 0
 fi
 
-log "Committing changes..."
-git commit -m "chore: auto-commit $(date +%Y-%m-%d)" || exit 1
+branch_name="updates-$(date +%Y%m%d)"
+log "Creating branch ${yellow}$branch_name${nc}..."
+git checkout -b "$branch_name" || exit 1
+git branch -f main origin/main || exit 1
 
-log "Pushing to ${yellow}origin main${nc}..."
-git push origin main || exit 1
+log "Pushing ${yellow}$branch_name${nc}..."
+git push -u origin "$branch_name" || exit 1
+
+log 'Creating Pull Request...'
+gh pr create --fill || exit 1
+
+log "Switching back to ${green}main${nc}..."
+git checkout main || exit 1
 
 log "${green}Done!${nc}"
