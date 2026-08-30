@@ -34,16 +34,14 @@ fi
 
 branch_name="updates-$(date +%Y%m%d)"
 log "Creating branch ${yellow}$branch_name${nc}..."
-git checkout -b "$branch_name" || exit 1
-git branch -f main origin/main || exit 1
+git branch "$branch_name" || exit 1
 
 log "Pushing ${yellow}$branch_name${nc}..."
 git push -u origin "$branch_name" || exit 1
 
 log 'Creating Pull Request...'
-gh pr create --fill || exit 1
+gh pr create --fill --head "$branch_name" || exit 1
 
-log "Switching back to ${green}main${nc}..."
-git checkout main || exit 1
+git branch -d "$branch_name"
 
 log "${green}Done!${nc}"
