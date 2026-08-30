@@ -1,0 +1,10 @@
+[Unit]
+Description=Weekly Dynatrace notes PR
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/Projects/.personal/dynatrace/push-to-main.sh
+StandardOutput=journal
+StandardError=journal
