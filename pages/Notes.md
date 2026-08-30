@@ -10,6 +10,7 @@
 - Update cws config scopes regularly
 - AggregationCount is actually not deprecated as extraction attribute
 - Twice as many records in case of errors?
+- Create CWS runbook
 -
 -
 - Security context
