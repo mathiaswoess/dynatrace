@@ -1,0 +1,10 @@
+[Unit]
+Description=Weekly Dynatrace notes commit and PR
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=%h/Projects/.personal/dynatrace/create-pr.sh
+StandardOutput=journal
+StandardError=journal

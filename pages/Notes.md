@@ -6,6 +6,12 @@
 - Remove metricValue and only do value again in metric
 - Array support and primary_tags
 - Repository rules
+- Update metric docs and feature flag docs
+- Update cws config scopes regularly
+- Remove AggregationCount and errorCount from extraction attributes
+- Twice as many records in case of errors?
+- Create CWS runbook
+-
 -
 - Security context
 - New member
