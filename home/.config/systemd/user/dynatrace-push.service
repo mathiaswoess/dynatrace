@@ -5,6 +5,6 @@ After=network-online.target
 
 [Service]
 Type=oneshot
-ExecStart=%h/Projects/.personal/dynatrace/push-to-main.sh
+ExecStart=%h/Projects/.personal/dynatrace/create-pr.sh
 StandardOutput=journal
 StandardError=journal
