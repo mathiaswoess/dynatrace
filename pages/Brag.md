@@ -2,10 +2,10 @@
 - Enable the topology engine in all prod clusters without major interruptions or impact.
 - Draft refine and submit x achitecture decision records, shaping the architecture and design of the topology engine in a major way.
 - Establish and follow agentic best practices to effectively complete the work of an entire team with only 3 team members, meeting all deadlines and goals in a 5x fashion.
-- Set up a NITO load testing framework using clusterworkloadsimulator to simulate real-world  ensure smooth rollout with optimal tuning parameters
+- Set up a NITO load testing framework using clusterworkloadsimulator to simulate high real-world traffic. Use it to benchmark and profile the topology engine and ensure the smooth rollout with optimal tuning parameters it had. This was vital to ensure an issue-less rollout to production.
 - Coordinate with SRE about resource increases and requirements to enable the topology engine everywhere
-- Perform backporting and hotfixing of urgent fixes and improvements into all rollout stages without any interruptions or rollbacks
-- Optimize the topology-engine for best performance, minimal memory overhead and lean resource usage
+- Perform backporting and hotfixing of urgent fixes and improvements into all rollout stages without any interruptions or rollbacks.
+- Optimize the topology-engine for best performance, minimal memory overhead and lean resource usage.
 - Deliver database query error count and duration metrics necessary for effective root cause analysis and causal AI and for feature parity of the displayed data in the database app without relying on the 2nd gen cluster. This speeds up the transition of our customers to pure 3rd gen clusters.
 - Identify and fix a double-booking issue where database leaf client spans also landed in the topology-engine's parent topic (due to being span-kind client). This almost halves the load on the parent Kafka topic and significantly reduces topology-engine load, saving large amount of hardware spend.
 -
@@ -15,12 +15,9 @@
 	- Optimized for high throughput
 	- Dynamically enriches each produced span with the necessary attributes expected by the 2nd gen cluster, allowing for easy switch to 3rd-gen OpenPipeline cluster
 	- Also enables testing of the runs_on/belongs_to relationships emitted by ppx
-- Enable automatic regression testing for dynamic smartscape edges
+- Enable automatic regression testing for dynamic smartscape edges.
 - Configure NITO self-service clusters to always install the topology-engine to mirror the state on prod to deliver static and dynamic edges based on span ingest
 - Significantly contribute to deus-self-service repository do eliminate warnings and errors through missing configuration overrides, allowing future users of NITO self-service to get off the ground faster
--
 - Collaborate with cross-capability teams (e.g. CWS and InfraObs teams) and coordinate common goals and sync on next steps
--
--
-- ## To refine
 - Cross-team and cross-project architecture decisions
+-
