@@ -11,6 +11,7 @@
 - Remove AggregationCount and errorCount from extraction attributes
 - Twice as many records in case of errors?
 - Create CWS runbook
+- Local infra duration
 -
 -
 - Security context
