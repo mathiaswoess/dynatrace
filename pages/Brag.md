@@ -1,5 +1,8 @@
-- Successfully deliver all expected features for the topology-engine at the targeted release sprint
-- Enable the topology engine in all prod clusters without major interruptions or impact
+- Successfully deliver all expected features for the topology-engine at the targeted release sprint.
+- Enable the topology engine in all prod clusters without major interruptions or impact.
+- Draft refine and submit x achitecture decision records, shaping the architecture and design of the topology engine in a major way.
+- Establish and follow agentic best practices to effectively complete the work of an entire team with only 3 team members, meeting all deadlines and goals in a 5x fashion.
+- Set up a NITO load testing framework using clusterworkloadsimulator to simulate real-world  ensure smooth rollout with optimal tuning parameters
 - Coordinate with SRE about resource increases and requirements to enable the topology engine everywhere
 - Perform backporting and hotfixing of urgent fixes and improvements into all rollout stages without any interruptions or rollbacks
 - Optimize the topology-engine for best performance, minimal memory overhead and lean resource usage
@@ -19,3 +22,5 @@
 - Collaborate with cross-capability teams (e.g. CWS and InfraObs teams) and coordinate common goals and sync on next steps
 -
 -
+- ## To refine
+- Cross-team and cross-project architecture decisions
