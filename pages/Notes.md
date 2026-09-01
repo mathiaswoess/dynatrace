@@ -12,6 +12,7 @@
 - HOST/PROCESS ff activation
 -
 - Cross-Tenant-Join
+- Retire slack TODO board?^^
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - Keep in mind: CPU request 4000m needed?
