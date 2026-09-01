@@ -2,7 +2,6 @@
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - PR for objectcache-service FF fix
-- Check [AD alert](https://dynatrace.slack.com/archives/C0BNRFDR82W/p1786693027928739?thread_ts=1786692900.298999&cid=C0BNRFDR82W)
 - Remove metricValue and only do value again in metric
 - Repository rules
 - Update cws config scopes regularly
@@ -10,9 +9,6 @@
 - Twice as many records in case of errors?
 - Local infra duration
 -
--
-- Security context
-- New member
 - HOST/PROCESS ff activation
 - Service2Service
 - Cross-Tenant-Join
