@@ -1,16 +1,14 @@
 ## Todo:
 - Add support for attributes in the CWS implementation
 - Remove AggregationCount and errorCount from extraction attributes
--
+- Remove metricValue and only do value again in metric
+- Handle or discard the draft PR
 -
 - PR for objectcache-service FF fix
-- Remove metricValue and only do value again in metric
-- Repository rules
-- Update cws config scopes regularly
+- Repository rules (disclaimer for PRs)
+- Update cws config scopes regularly via Job?
 -
 - Twice as many records in case of errors?
--
--
 - HOST/PROCESS ff activation
 -
 - Cross-Tenant-Join
