@@ -1,17 +1,21 @@
 ## Todo:
-- Provide OTel CWS pattern example
-- Use real oauth secret in nito
+- Add support for attributes in the CWS implementation
+- Remove AggregationCount and errorCount from extraction attributes
+-
+-
 - PR for objectcache-service FF fix
 - Remove metricValue and only do value again in metric
 - Repository rules
 - Update cws config scopes regularly
-- Remove AggregationCount and errorCount from extraction attributes
+-
 - Twice as many records in case of errors?
-- Local infra duration
+-
 -
 - HOST/PROCESS ff activation
-- Cross-Tenant-Join
 -
+- Cross-Tenant-Join
+- Provide OTel CWS pattern example
+- Use real oauth secret in nito
 - Keep in mind: CPU request 4000m needed?
 -
 - Extend local-infra with new profile to self-monitor it without cluster
