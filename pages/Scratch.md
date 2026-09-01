@@ -1,4 +1,3 @@
 - rename buildConsumerConfig to buildItiConsumerConfig
-- Lot's of code duplication, but I guess we can take care of that in a future PR
 - Are getProcessorType and pipeline ID written?
 - Metrics defined?
