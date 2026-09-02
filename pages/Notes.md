@@ -1,5 +1,4 @@
 ## Todo:
-- Add support for attributes in the CWS implementation
 - Remove AggregationCount and errorCount from extraction attributes
 - Remove metricValue and only do value again in metric
 -
