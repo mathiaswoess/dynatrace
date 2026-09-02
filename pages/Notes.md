@@ -1,20 +1,21 @@
 ## Todo:
 - Remove AggregationCount and errorCount from extraction attributes
 - Remove metricValue and only do value again in metric
+- Extend local-infra with new profile to self-monitor it without cluster
 -
 - PR for objectcache-service FF fix
 - Repository rules (disclaimer for PRs)
 - Update cws config scopes regularly via Job?
 -
 - HOST/PROCESS ff activation
--
 - Cross-Tenant-Join
+- Metric FF activation
+-
 - Retire slack TODO board?^^
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
 - Keep in mind: CPU request 4000m needed?
 -
-- Extend local-infra with new profile to self-monitor it without cluster
 - Co-Created-With: IntelliJ IDEA 2026.2.0.1 norely@jetbrains.com
 -
 -
