@@ -20,4 +20,4 @@
 - Significantly contribute to deus-self-service repository do eliminate warnings and errors through missing configuration overrides, allowing future users of NITO self-service to get off the ground faster
 - Collaborate with cross-capability teams (e.g. CWS and InfraObs teams) and coordinate common goals and sync on next steps
 - Cross-team and cross-project architecture decisions
--
+- Became a vital part to maintaining a tier-1 service that the Dynatrace product relies on for other functionality
