@@ -14,8 +14,11 @@
 -
 - So much more to do now:
 	- Relieve 2nd gen cluster of it's service-to-service linking duty
-	- messaging (Kafka broker linking)
-	- provide customer facing settings
+		- Scale out to 70% ppx scale
+	- Messaging (Kafka broker linking)
+	- Service_deployment, K8s_deployment/pod
+	- ITI testing
+	- Provide customer facing settings
 -
 -
 - Lastly, thanks to Christian for supporting in everything along the way, providing his expert advice and opinions. Couldn't have done it without him.
