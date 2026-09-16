@@ -4,7 +4,16 @@
 - Recap: Rollout was a huge success without any major problems, mostly due to our well-refined OnCall Dashboard with a huge number of sfm metrics and our extensive load testing to measure exactly where to tune, optimize and what to expect
 -
 - New features since then:
-- We reached the initial VI goal of providing linking support for all entity type listed in PRODUCT-14330 including the
+- We reached the initial VI goal of providing linking support for all entity type listed in PRODUCT-14330 including the "new" ones: Azure SQL, Azure Cache for Redis, and GCP Firestore
+-
+- Set up automatic observability:
+	- official SLO (first of our team, onboarding) - none burned yet
+	- Anomaly detection and automatic slack notification via workflow automation
+	-
+-
+- So much more to do now:
+	-
+-
 -
 - Lastly, thanks to Christian for supporting in everything along the way, providing his expert advice and opinions. Couldn't have done it without him.
 -
