@@ -2,7 +2,7 @@
 - What we ended the last demo on: 
   We'll try to reach feature pairity, wanted to roll out our service onto the platform, counting on a few setbacks and OOM-killed issues.
 -
-- We then build
+- We then build a rich on-call dashboard, a topology load testing framework in CWS and NITO, a local infra to simulate load on-device and planned carefully.
 -
 - Recap: Rollout was a huge success without any major problems, mostly due to our well-refined OnCall Dashboard with a huge number of sfm metrics and our extensive load testing to measure exactly where to tune, optimize and what to expect
 -
@@ -12,6 +12,7 @@
 	- error_count (not failure_count)
 	- response_time (gauge, not histogram)
 		- explanation as to why
+-
 -
 - Primary grail tags on all metrics
 	- Can't demo it yet as fxz has none and dev5 was on feature freeze (as you all know)
