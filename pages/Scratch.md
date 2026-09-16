@@ -10,7 +10,8 @@
 	- response_time (gauge, not histogram)
 		- explanation as to why
 -
-- Primary grail tags
+- Primary grail tags on all metrics
+	- Can't demo it yet as fxz has none and dev5 was on feature freeze (as you all know)
 -
 - Set up automatic observability:
 	- official SLO (first of our team, onboarding) - none burned yet
@@ -20,11 +21,11 @@
 -
 - So much more to do now:
 	- Relieve 2nd gen cluster of it's service-to-service linking duty
-		- Scale out to 70% ppx scale
+		- Scale out largely (70% of ppx records need to go through us, smart filtering - every $ matters)
 	- Messaging (Kafka broker linking)
 	- Service_deployment, K8s_deployment/pod
 	- ITI testing
-	- Provide customer facing settings
+	- Provide customer facing settings for linking rules (currently hard-coded)
 -
 -
 - Lastly, thanks to Christian for supporting in everything along the way, providing his expert advice and opinions. Couldn't have done it without him.
