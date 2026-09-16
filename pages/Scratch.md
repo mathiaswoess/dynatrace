@@ -39,6 +39,7 @@
 - So much more to do now:
 	- Relieve 2nd gen cluster of it's service-to-service linking duty
 		- Scale out largely (70% of ppx records need to go through us, smart filtering - every $ matters)
+		- Try to land any kind of optimization (currently doing a statistics-only processor to )
 	- Messaging (Kafka broker linking)
 	- Service_deployment, K8s_deployment/pod
 	- ITI testing

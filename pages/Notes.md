@@ -3,13 +3,11 @@
 - Remove metricValue and only do value again in metric
 - Extend local-infra with new profile to self-monitor it without cluster
 -
+- Tenant affinity?
+-
 - PR for objectcache-service FF fix
 - Repository rules (disclaimer for PRs)
 - Update cws config scopes regularly via Job?
--
-- HOST/PROCESS ff activation
-- Cross-Tenant-Join
-- Metric FF activation
 -
 - Retire slack TODO board?^^
 - Provide OTel CWS pattern example
