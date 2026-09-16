@@ -31,6 +31,7 @@
 	- OnCall + TSG + Debug Notebook and dashboards to quickly find the root cause for any missing links
 	-
 - Lots of optimizations for CPU and allocation reduction
+- NobeX serdes for the RTR state stores
 -
 -
 - So much more to do now:
