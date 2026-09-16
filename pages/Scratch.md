@@ -9,10 +9,13 @@
 - Set up automatic observability:
 	- official SLO (first of our team, onboarding) - none burned yet
 	- Anomaly detection and automatic slack notification via workflow automation
+	- OnCall + TSG + Debug Notebook and dashboards to quickly find the root cause for any missing links
 	-
 -
 - So much more to do now:
-	-
+	- Relieve 2nd gen cluster of it's service-to-service linking duty
+	- messaging (Kafka broker linking)
+	- provide customer facing settings
 -
 -
 - Lastly, thanks to Christian for supporting in everything along the way, providing his expert advice and opinions. Couldn't have done it without him.
