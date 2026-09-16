@@ -5,6 +5,12 @@
 -
 - New features since then:
 - We reached the initial VI goal of providing linking support for all entity type listed in PRODUCT-14330 including the "new" ones: Azure SQL, Azure Cache for Redis, and GCP Firestore
+- Two additional customer-facing metrics for database queries
+	- error_count (not failure_count)
+	- response_time (gauge, not histogram)
+		- explanation as to why
+-
+- Primary grail tags
 -
 - Set up automatic observability:
 	- official SLO (first of our team, onboarding) - none burned yet
