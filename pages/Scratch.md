@@ -1,6 +1,9 @@
 - What Isn't new?!
 - What we ended the last demo on: 
   We'll try to reach feature pairity, wanted to roll out our service onto the platform, counting on a few setbacks and OOM-killed issues.
+-
+- We then build
+-
 - Recap: Rollout was a huge success without any major problems, mostly due to our well-refined OnCall Dashboard with a huge number of sfm metrics and our extensive load testing to measure exactly where to tune, optimize and what to expect
 -
 - New features since then:
@@ -18,6 +21,8 @@
 	- Anomaly detection and automatic slack notification via workflow automation
 	- OnCall + TSG + Debug Notebook and dashboards to quickly find the root cause for any missing links
 	-
+- Lots of optimizations for CPU and allocation reduction
+-
 -
 - So much more to do now:
 	- Relieve 2nd gen cluster of it's service-to-service linking duty
