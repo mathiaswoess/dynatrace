@@ -7,7 +7,8 @@
 - Recap: Rollout was a huge success without any major problems, mostly due to our well-refined OnCall Dashboard with a huge number of sfm metrics and our extensive load testing to measure exactly where to tune, optimize and what to expect
 -
 - New features since then:
-- We reached the initial VI goal of providing linking support for all entity type listed in PRODUCT-14330 including the "new" ones: Azure SQL, Azure Cache for Redis, and GCP Firestore
+- We reached the initial VI goal of providing linking support for all entity type listed in PRODUCT-14330 including the "new" ones: Azure SQL, Azure Cache for Redis, and GCP Firestore (AWS_RDS_DBCLUSTER, AZURE_MICROSOFT_SQL_SERVERS, AZURE_MICROSOFT_CACHE_REDIS, GCP_FIRESTORE_GOOGLEAPIS_COM_DATABASE)
+  (Maybe to show this somewhere?)
 - Two additional customer-facing metrics for database queries
 	- error_count (not failure_count)
 	- response_time (gauge, not histogram)
@@ -16,6 +17,8 @@
 -
 - Primary grail tags on all metrics
 	- Can't demo it yet as fxz has none and dev5 was on feature freeze (as you all know)
+-
+-
 -
 - Set up automatic observability:
 	- official SLO (first of our team, onboarding) - none burned yet
