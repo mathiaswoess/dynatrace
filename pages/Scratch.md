@@ -1,4 +1,6 @@
-- What Isn't new?!
+- Whats's new with topology engine? We haven't presented since april - thought there's not much to show...
+-
+- But.. What Isn't new?!
 - What we ended the last demo on: 
   We'll try to reach feature pairity, wanted to roll out our service onto the platform, counting on a few setbacks and OOM-killed issues.
 -
@@ -39,7 +41,7 @@
 - So much more to do now:
 	- Relieve 2nd gen cluster of it's service-to-service linking duty
 		- Scale out largely (70% of ppx records need to go through us, smart filtering - every $ matters)
-		- Try to land any kind of optimization (currently doing a statistics-only processor to )
+		- Try to land any kind of optimization (currently doing a statistics-only processor to estimate how many child-spans we could "not send" over the wire)
 	- Messaging (Kafka broker linking)
 	- Service_deployment, K8s_deployment/pod
 	- ITI testing
