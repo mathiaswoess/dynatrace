@@ -32,6 +32,8 @@
 	-
 - Lots of optimizations for CPU and allocation reduction
 - NobeX serdes for the RTR state stores
+- Grail queries back-off balancing / distribution
+-
 -
 -
 - So much more to do now:
