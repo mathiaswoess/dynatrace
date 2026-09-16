@@ -4,6 +4,7 @@
 - Extend local-infra with new profile to self-monitor it without cluster
 -
 - Tenant affinity?
+- Update debug notebook
 -
 - PR for objectcache-service FF fix
 - Repository rules (disclaimer for PRs)
