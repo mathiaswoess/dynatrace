@@ -23,6 +23,7 @@
 		- **RTR** joins *two spans* that already reference each other (parent/child, custom tag, RUM link). Kafka Streams, co-partitioned, 5-minute window, RocksDB state.
 		- **RTI** has only the *caller* span, and must **resolve** the target entity out of Grail by DQL. Caffeine cache of `lookup key → entity id`, with a fetch cooldown.
 		- **ITI** has *both* sides already - but they arrive as two independent **Smartscape entity records**, not spans, and can arrive days apart. So there is no join window at all: whichever side turns up first waits in a cache for the other.
+	- won
 -
 - Set up automatic observability:
 	- official SLO (first of our team, onboarding) - none burned yet
