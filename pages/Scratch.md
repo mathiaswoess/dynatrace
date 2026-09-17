@@ -39,7 +39,8 @@
 - NobeX serdes for the RTR state stores
 - Grail queries back-off balancing / distribution
 -
--
+- Outlook:
+	- RTR
 -
 - So much more to do now:
 	- Relieve 2nd gen cluster of it's service-to-service linking duty
