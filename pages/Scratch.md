@@ -1,4 +1,6 @@
-- Whats's new with topology engine? We haven't presented since april - thought there's not much to show...
+- Whats's new with topology engine? We haven't presented since April
+-
+- ... show Service map ...
 -
 - But.. What Isn't new?!
 - What we ended the last demo on: 
@@ -11,6 +13,7 @@
 - New features since then:
 - We reached the initial VI goal of providing linking support for all entity type listed in PRODUCT-14330 including the "new" ones: Azure SQL, Azure Cache for Redis, and GCP Firestore (AWS_RDS_DBCLUSTER, AZURE_MICROSOFT_SQL_SERVERS, AZURE_MICROSOFT_CACHE_REDIS, GCP_FIRESTORE_GOOGLEAPIS_COM_DATABASE)
   (Maybe to show this somewhere?)
+-
 - Two additional customer-facing metrics for database queries
 	- error_count (not failure_count)
 	- response_time (gauge, not histogram)
