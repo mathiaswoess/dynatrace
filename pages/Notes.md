@@ -1,4 +1,6 @@
 ## Todo:
+- Sync job not triggering
+-
 - Remove AggregationCount and errorCount from extraction attributes
 - Remove metricValue and only do value again in metric
 - Extend local-infra with new profile to self-monitor it without cluster
