@@ -19,7 +19,7 @@
 - Use real oauth secret in nito
 - Keep in mind: CPU request 4000m needed?
 -
-- Co-Created-With: IntelliJ IDEA 2026.2.0.1 norely@jetbrains.com
+- Co-Created-With: IntelliJ IDEA 2026.2.3 norely@jetbrains.com
 -
 -
 -
