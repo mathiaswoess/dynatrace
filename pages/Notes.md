@@ -1,33 +1,25 @@
 ## Todo:
+- Sync job not triggering
+- PDB rework after [Slack](https://dynatrace.slack.com/archives/C0BPZLDF35E/p1789716512319749) lands
+- Document exact linking rules (like on debug dashboard)
+-
+- Remove AggregationCount and errorCount from extraction attributes
+- Remove metricValue and only do value again in metric
+- Extend local-infra with new profile to self-monitor it without cluster
+-
+- Tenant affinity?
+- Update debug notebook
+-
+- PR for objectcache-service FF fix
+- Repository rules (disclaimer for PRs)
+- Update cws config scopes regularly via Job?
+-
+- Retire slack TODO board?^^
 - Provide OTel CWS pattern example
 - Use real oauth secret in nito
-- PR for objectcache-service FF fix
-- Check [AD alert](https://dynatrace.slack.com/archives/C0BNRFDR82W/p1786693027928739?thread_ts=1786692900.298999&cid=C0BNRFDR82W)
-- Remove metricValue and only do value again in metric
-- Array support and primary_tags
-- Repository rules
-- Update metric docs and feature flag docs
-- Update cws config scopes regularly
-- Remove AggregationCount and errorCount from extraction attributes
-- Twice as many records in case of errors?
-- Create CWS runbook
-- Local infra duration
--
--
-- Security context
-- New member
-- HOST/PROCESS ff activation
-- Service2Service
-- Cross-Tenant-Join
-- Primary grail rollout
-- Database metrics
--
-- Revert value file PRs
--
 - Keep in mind: CPU request 4000m needed?
 -
-- Extend local-infra with new profile to self-monitor it without cluster
-- Co-Created-With: IntelliJ IDEA 2026.2.0.1 norely@jetbrains.com
+- Co-Created-With: IntelliJ IDEA 2026.2.3 norely@jetbrains.com
 -
 -
 -

@@ -1,5 +1,2 @@
-- Pre-commit hooks
-- rename buildConsumerConfig to buildItiConsumerConfig
-- Lot's of code duplication, but I guess we can take care of that in a future PR
-- Are getProcessorType and pipeline ID written?
-- Metrics defined?
+- I'm trying to delete the deprecated aggregation.count and error.count (now derived from duration.count() ) from the RTI wire format completely, dropping legacy support.
+    Check my changes and point out improvements, inconsistencies, javadoc/doc errors or mismatches, any improvements.
