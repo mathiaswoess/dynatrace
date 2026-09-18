@@ -1,16 +1,14 @@
 ## Todo:
+- Load tests for Azure and GCP
+- Test processor types and arch
+- Tenant affinity?
+-
 - Sync job not triggering
-- PDB rework after [Slack](https://dynatrace.slack.com/archives/C0BPZLDF35E/p1789716512319749) lands
 - Document exact linking rules (like on debug dashboard)
 -
-- Remove AggregationCount and errorCount from extraction attributes
-- Remove metricValue and only do value again in metric
 - Extend local-infra with new profile to self-monitor it without cluster
 -
-- Tenant affinity?
-- Update debug notebook
--
-- PR for objectcache-service FF fix
+- PR for segment-indexer-manager-deployment-* UnknownHostException: dps-ingest.dps-ingest.svc.cluster.local
 - Repository rules (disclaimer for PRs)
 - Update cws config scopes regularly via Job?
 -
