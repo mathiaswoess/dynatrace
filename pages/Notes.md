@@ -1,6 +1,7 @@
 ## Todo:
 - Sync job not triggering
-- PDB
+- PDB rework after [Slack](https://dynatrace.slack.com/archives/C0BPZLDF35E/p1789716512319749) lands
+-
 -
 - Remove AggregationCount and errorCount from extraction attributes
 - Remove metricValue and only do value again in metric
