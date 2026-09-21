@@ -1,6 +1,5 @@
 ## Todo:
 - Sync job not triggering
-- PDB rework after [Slack](https://dynatrace.slack.com/archives/C0BPZLDF35E/p1789716512319749) lands
 - Document exact linking rules (like on debug dashboard)
 -
 - Extend local-infra with new profile to self-monitor it without cluster
