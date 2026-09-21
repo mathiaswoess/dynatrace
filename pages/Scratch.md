@@ -1,2 +1,3 @@
 - I'm trying to delete the deprecated aggregation.count and error.count (now derived from duration.count() ) from the RTI wire format completely, dropping legacy support.
     Check my changes and point out improvements, inconsistencies, javadoc/doc errors or mismatches, any improvements.
+-
