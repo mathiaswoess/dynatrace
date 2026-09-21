@@ -15,9 +15,12 @@
 	- Optimized for high throughput
 	- Dynamically enriches each produced span with the necessary attributes expected by the 2nd gen cluster, allowing for easy switch to 3rd-gen OpenPipeline cluster
 	- Also enables testing of the runs_on/belongs_to relationships emitted by ppx
+	- Build support for primary_tags and other custom attributes on both input records and smartscape nodes
 - Enable automatic regression testing for dynamic smartscape edges.
 - Configure NITO self-service clusters to always install the topology-engine to mirror the state on prod to deliver static and dynamic edges based on span ingest
 - Significantly contribute to deus-self-service repository do eliminate warnings and errors through missing configuration overrides, allowing future users of NITO self-service to get off the ground faster
 - Collaborate with cross-capability teams (e.g. CWS and InfraObs teams) and coordinate common goals and sync on next steps
 - Cross-team and cross-project architecture decisions
 - Became a vital part to maintaining a tier-1 service that the Dynatrace product relies on for a lot of other functionality
+- Participate in CI post-mortems
+-
