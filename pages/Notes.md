@@ -1,5 +1,8 @@
 ## Todo:
-- Load tests
+- Load tests for Azure and GCP
+- Test processor types and arch
+- Create right arch images
+-
 -
 - Sync job not triggering
 - Document exact linking rules (like on debug dashboard)
