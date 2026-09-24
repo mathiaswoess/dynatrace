@@ -1,6 +1,7 @@
 - actually only about 3200m available
 - no support for azure, gcp in self-service
 - build is now + arm
--
+- now doing 6 topos with 3250cpu limit and 28gig
+- still no rtr statistics - wtf
 -
 -
