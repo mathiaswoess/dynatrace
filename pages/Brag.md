@@ -25,4 +25,4 @@
 - Participate in CI post-mortems
 - Adjust the PDB and rollout strategy for the topology engine to lower the spiked impact on grail during rollouts or node drains
 - Perform exhaustive tests for different architectures to scale out the topology engine with the best hardware cost factor
-- Play major part in getting service-calls-service into the OpenPipeline to enable easy horizontal scaling for big PoCs
+- Play major part in getting service-calls-service (biggest and most important feature of topology-engine yet) into the OpenPipeline to enable easy horizontal scaling for big PoCs and unblocking feature moves into OP
