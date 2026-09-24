@@ -8,7 +8,7 @@
 -
 - Extend local-infra with new profile to self-monitor it without cluster
 -
-- PR for objectcache-service FF fix
+- PR for segment-indexer-manager-deployment-* FF fix
 - Repository rules (disclaimer for PRs)
 - Update cws config scopes regularly via Job?
 -
