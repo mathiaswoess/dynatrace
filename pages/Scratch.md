@@ -1,5 +1,5 @@
 - actually only about 3200m available
-- no support for azure gcp in self-service
+- no support for azure, gcp in self-service
 - build is now + arm
 -
 -
