@@ -24,3 +24,4 @@
 - Became a vital part to maintaining a tier-1 service that the Dynatrace product relies on for a lot of other functionality
 - Participate in CI post-mortems
 - Adjust the PDB and rollout strategy for the topology engine to lower the spiked impact on grail during rollouts or node drains
+- Perform exhaustive tests for different architectures to scale out the topology engine with the best hardware cost factor
