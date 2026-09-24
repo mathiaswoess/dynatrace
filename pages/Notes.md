@@ -1,15 +1,12 @@
 ## Todo:
 - Load tests for Azure and GCP
 - Test processor types and arch
-- Create right arch images
--
+- Tenant affinity?
 -
 - Sync job not triggering
 - Document exact linking rules (like on debug dashboard)
 -
 - Extend local-infra with new profile to self-monitor it without cluster
--
-- Tenant affinity?
 -
 - PR for objectcache-service FF fix
 - Repository rules (disclaimer for PRs)
