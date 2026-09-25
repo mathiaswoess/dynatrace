@@ -5,4 +5,7 @@
 	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-01T08%3A22%3A00.000000000Z&to=2026-09-01T11%3A02%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13598&vfilter_Pod=*&vfilter_Tenant=*)
 	- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=100 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=300 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
 -
-- mawo-loadtest-13875 (r6a.xlarge)
+- mawo-loadtest-13875 (way too much, small node size)
+	- comment: rtr r6a.xlarge: ast260x50, dbs800x100, fnt50x50, mcl50x50
+	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-24T14%3A01%3A00.000000000Z&to=2026-09-24T16%3A26%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13875&vfilter_Pod=*&vfilter_Tenant=*)
+	- astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50
