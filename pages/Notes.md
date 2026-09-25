@@ -8,7 +8,7 @@
 -
 - Extend local-infra with new profile to self-monitor it without cluster
 -
-- PR for segment-indexer-manager-deployment-* FF fix
+- PR for segment-indexer-manager-deployment-* UnknownHostException: dps-ingest.dps-ingest.svc.cluster.local
 - Repository rules (disclaimer for PRs)
 - Update cws config scopes regularly via Job?
 -
