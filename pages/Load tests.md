@@ -1,3 +1,6 @@
+- mawo-loadtest-13588 (bit too much RTI)
+	- CWS: `astroshopGroup.topologyReplicas=270 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=140 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
+	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-08-31T12%3A33%3A00.000000000Z&to=2026-08-31T14%3A58%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13588&vfilter_Tenant=3420b2ac-f1cf-4b24-b62d-61ba1ba8ed05*&vfilter_LogLevel=WARN%2CERROR)
 - mawo-loadtest-13598 (too much load, tenant affinity)
 	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-01T08%3A22%3A00.000000000Z&to=2026-09-01T11%3A02%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13598&vfilter_Pod=*&vfilter_Tenant=*)
 	- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=100 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=300 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
