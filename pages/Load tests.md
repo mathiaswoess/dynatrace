@@ -34,4 +34,6 @@
 	- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
 -
 - ### ARCH tests (6 pods 7000m, 240 partitions)
--
+- mawo-loadtest-13915 (tba)
+	- rtr m6a.2xlarge: ast800x50, dbs300x50
+	-
