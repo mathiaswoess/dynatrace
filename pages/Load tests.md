@@ -22,4 +22,5 @@
 	- CWS: `astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
 	-
 - mawo-loadtest-13901 (6 pods with 3250mcore, 240 partitions)
+	- rtr m6i.2xlarge: ast275x50, dbs800x100
 	-
