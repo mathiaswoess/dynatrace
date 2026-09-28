@@ -21,6 +21,7 @@ collapsed:: true
 		- CWS: `astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
 		-
 - ### ARCH tests (restricted, 6 pods with 3250m, 240 partitions)
+  collapsed:: true
 	- mawo-loadtest-13901 (could handle it easily, weird rti spikes)
 	  collapsed:: true
 		- rtr m6i.2xlarge: ast275x50, dbs800x100
@@ -34,4 +35,7 @@ collapsed:: true
 	- mawo-loadtest-13915 (can handle it, cpu usage ~5, could be more rti)
 		- rtr m6a.2xlarge: ast800x50, dbs300x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=800 databasesGroup.topologyReplicas=300`
+	- mawo-loadtest-139117 (tba)
+		- rtr m6a.2xlarge: ast900x50, dbs450x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=450`
 	-
