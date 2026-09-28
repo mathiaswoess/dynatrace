@@ -30,10 +30,12 @@
 	- CWS: `astroshopGroup.topologyReplicas=275 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100`
 	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-28T06%3A47Z&to=now%28%29&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13901&vfilter_Pod=*&vfilter_Tenant=*)
 - mawo-loadtest-13912 (too much load)
+  collapsed:: true
 	- rtr m6i.2xlarge: ast350x50, dbs900x100
 	- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
 -
 - ### ARCH tests (6 pods 7000m, 240 partitions)
 - mawo-loadtest-13915 (tba)
 	- rtr m6a.2xlarge: ast800x50, dbs300x50
+	- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=800 databasesGroup.topologyReplicas=300`
 	-
