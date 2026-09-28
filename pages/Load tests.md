@@ -32,7 +32,7 @@ collapsed:: true
 		- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
 - ---
 - ### ARCH tests (6 pods 7000m, 240 partitions)
-	- mawo-loadtest-13915 (can handle it, cpu usage ~5, could be more rti)
+	- mawo-loadtest-13915 (can handle it, bit much rtr, but cpu usage ~5, could be more rti)
 		- rtr m6a.2xlarge: ast800x50, dbs300x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=800 databasesGroup.topologyReplicas=300`
 	- mawo-loadtest-13917 (ppx couldn't handle the load)
