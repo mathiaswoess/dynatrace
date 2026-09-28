@@ -31,5 +31,5 @@
 - mawo-loadtest-13904 (tba)
 	- rtr m6i.2xlarge: ast350x50, dbs900x100
 	- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
-	-
+-
 	-
