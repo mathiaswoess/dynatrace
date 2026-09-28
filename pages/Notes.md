@@ -1,6 +1,7 @@
 ## Todo:
 - Failing grail queries (timeouts)
 - Tenant affinity?
+- Try with 9-indexers
 -
 - Document exact linking rules (like on debug dashboard)
 -
