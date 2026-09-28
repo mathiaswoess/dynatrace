@@ -3,5 +3,5 @@
 - build is now + arm
 - now doing 6 topos with 3250cpu limit and 28gig
 - still no rtr statistics - wtf
--
+- Wanted to do 6 pods, but then ppx was not scaled enough
 -
