@@ -1,9 +1,9 @@
 ## Todo:
-- Load tests for Azure and GCP
+- Failing grail queries (timeouts)
+-
 - Test processor types and arch
 - Tenant affinity?
 -
-- Sync job not triggering
 - Document exact linking rules (like on debug dashboard)
 -
 - Extend local-infra with new profile to self-monitor it without cluster
