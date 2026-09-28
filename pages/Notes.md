@@ -1,7 +1,5 @@
 ## Todo:
 - Failing grail queries (timeouts)
--
-- Test processor types and arch
 - Tenant affinity?
 -
 - Document exact linking rules (like on debug dashboard)
