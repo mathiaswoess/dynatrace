@@ -1,0 +1,3 @@
+- Kafka ppx-stateful usage for [prod10](https://production.apps.dynatrace.com/ui/apps/dynatrace.infraops/explorer/Compute/Hosts?perspective=Health&sort=healthIndicators%3Adescending&sidebarOpen=true#filtering=%22Host+group%22+%3D+dtp-prod10-grail+host+%3D+*%22ppx-stateful%22*)
+- [production Scaling dashboard](https://dre63214.apps.dynatrace.com/ui/apps/dynatrace.dashboards/dashboard/e6ba5a95-a7ae-4536-a3a1-f179fe2c0753#vfilter_GrailCluster=dtp-prod10-grail&from=now%28%29-2h&to=now%28%29&tileIds=2)
+-
