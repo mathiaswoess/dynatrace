@@ -1,7 +1,7 @@
 ## Todo:
 - Failing grail queries (timeouts)
-- Tenant affinity?
-- Try with 9-indexers
+- Tenant affinity (only for outbound customer metrics on generic queue)?
+-
 - maxPollRecords: 1000
 -
 - Document exact linking rules (like on debug dashboard)
