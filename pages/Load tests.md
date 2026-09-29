@@ -41,7 +41,7 @@ collapsed:: true
 	- mawo-loadtest-13919 (ppx+1, too much rtr load, ~5cpu usage, check mem-profile)
 		- rtr m6a.2xlarge: ast900x50, dbs450x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=450`
-	- mawo-loadtest-13920 (ppx+1, tba)
+	- mawo-loadtest-13921 (ppx+1, a little too much rti still)
 		- rtr m6a.2xlarge: ast750x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=750 databasesGroup.topologyReplicas=550`
 	-
