@@ -44,5 +44,8 @@ collapsed:: true
 	- mawo-loadtest-13921 (ppx+1, a little too much rti still)
 		- rtr m6a.2xlarge: ast750x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=750 databasesGroup.topologyReplicas=550`
+	- mawo-loadtest-13922 (ppx+1, tba)
+		- rtr m6a.2xlarge: ast700x50, dbs550x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=550`
 	-
 	-
