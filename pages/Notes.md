@@ -3,6 +3,8 @@
 - Tenant affinity (only for outbound customer metrics on generic queue)?
 - Permanent rtr+rti config (and scopes)
 - maxPollRecords: 1000
+- Error logs ad
+-
 -
 - Document exact linking rules (like on debug dashboard)
 -
