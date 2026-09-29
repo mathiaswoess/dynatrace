@@ -8,7 +8,7 @@ collapsed:: true
 	  collapsed:: true
 		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-01T08%3A22%3A00.000000000Z&to=2026-09-01T11%3A02%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13598&vfilter_Pod=*&vfilter_Tenant=*)
 		- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=100 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=300 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
-- ### ARCH tests (restricted, 3 pods)
+- ### Load tests (restricted, 3 pods)
   collapsed:: true
 	- mawo-loadtest-13866 (first 3-indexer one, 8cpus, fine with weird spike)
 	  collapsed:: true
@@ -20,7 +20,7 @@ collapsed:: true
 		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-24T14%3A01%3A00.000000000Z&to=2026-09-24T16%3A26%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13875&vfilter_Pod=*&vfilter_Tenant=*)
 		- CWS: `astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
 		-
-- ### ARCH tests (restricted, 6 pods with 3250m, 240 partitions)
+- ### Load tests (restricted, 6 pods with 3250m, 240 partitions)
   collapsed:: true
 	- mawo-loadtest-13901 (could handle it easily, weird rti spikes)
 	  collapsed:: true
@@ -31,7 +31,7 @@ collapsed:: true
 		- rtr m6i.2xlarge: ast350x50, dbs900x100
 		- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
 - ---
-- ### ARCH tests (6 pods 7000m, 240 partitions)
+- ### Load tests (6 pods 7000m, 240 partitions)
 	- mawo-loadtest-13915 (can almost handle it, bit much rtr, but cpu usage ~5, could be more rti)
 	  collapsed:: true
 		- rtr m6a.2xlarge: ast800x50, dbs300x50
@@ -62,12 +62,15 @@ collapsed:: true
 		- 9-indexers
 		- rtr m6a.2xlarge: ast650x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=650 databasesGroup.topologyReplicas=550`
+- ---
+- ### ARCH tests (6 pods 7000m, 240 partitions, same load)
 	- mawo-loadtest-13940 (4 threads, higher load, stable - possible baseline)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast700x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=600`
 	- **mawo-loadtest-13944 (4t, bit higher load, handled perfectly - BASELINE)**
 		- rtr m6a.2xlarge: ast725x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
-		-
+		- Parent 16.4M/m, Child 14.4M/m, Rti 6.1M/m
 		-
 	-
