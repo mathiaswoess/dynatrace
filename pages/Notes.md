@@ -2,6 +2,7 @@
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
 - Permanent rtr+rti config (and scopes)
+- RTI idle run with more pods
 - maxPollRecords: 1000
 - Error logs ad
 - Early Adopters button js oncall
