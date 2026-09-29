@@ -45,6 +45,7 @@ collapsed:: true
 		- rtr m6a.2xlarge: ast900x50, dbs450x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=450`
 	- mawo-loadtest-13921 (ppx+1, a little too much rtr still)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast750x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=750 databasesGroup.topologyReplicas=550`
 	- ~~mawo-loadtest-13929 - failed! (ppx+1, tenant split)~~
