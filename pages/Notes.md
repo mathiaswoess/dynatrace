@@ -4,7 +4,8 @@
 - Permanent rtr+rti config (and scopes)
 - maxPollRecords: 1000
 - Error logs ad
--
+- Early Adopters button js oncall
+- TSG: If link missing - check frontend.id on server span or user event
 -
 - Document exact linking rules (like on debug dashboard)
 -
