@@ -2,6 +2,7 @@
 - Failing grail queries (timeouts)
 - Tenant affinity?
 - Try with 9-indexers
+- maxPollRecords: 1000
 -
 - Document exact linking rules (like on debug dashboard)
 -
