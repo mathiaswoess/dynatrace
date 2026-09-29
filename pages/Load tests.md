@@ -62,11 +62,12 @@ collapsed:: true
 		- 9-indexers
 		- rtr m6a.2xlarge: ast650x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=650 databasesGroup.topologyReplicas=550`
-	- mawo-loadtest-13940 (4 threads, higher load, stable - good baseline)
+	- mawo-loadtest-13940 (4 threads, higher load, stable - possible baseline)
 		- rtr m6a.2xlarge: ast700x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=600`
-	- mawo-loadtest-13944 (4t, bit higher load, TBA)
+	- **mawo-loadtest-13944 (4t, bit higher load, handled perfectly - BASELINE)**
 		- rtr m6a.2xlarge: ast725x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
+		-
 		-
 	-
