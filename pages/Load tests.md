@@ -30,8 +30,8 @@ collapsed:: true
 	- mawo-loadtest-13912 (too much load)
 		- rtr m6i.2xlarge: ast350x50, dbs900x100
 		- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
-- ---
 - ### Load tests (6 pods 7000m, 240 partitions)
+  collapsed:: true
 	- mawo-loadtest-13915 (can almost handle it, bit much rtr, but cpu usage ~5, could be more rti)
 	  collapsed:: true
 		- rtr m6a.2xlarge: ast800x50, dbs300x50
@@ -68,7 +68,7 @@ collapsed:: true
 	  collapsed:: true
 		- rtr m6a.2xlarge: ast700x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=600`
-	- **mawo-loadtest-13944 (4t, bit higher load, handled perfectly - BASELINE)**
+	- **mawo-loadtest-13944 (4t,  bit higher load, handled perfectly - BASELINE)**
 		- rtr m6a.2xlarge: ast725x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
 		- Parent 16.4M/m, Child 14.4M/m, Rti 6.1M/m
