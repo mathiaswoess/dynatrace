@@ -32,19 +32,24 @@ collapsed:: true
 		- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
 - ---
 - ### ARCH tests (6 pods 7000m, 240 partitions)
-	- mawo-loadtest-13915 (can handle it, bit much rtr, but cpu usage ~5, could be more rti)
+	- mawo-loadtest-13915 (can almost handle it, bit much rtr, but cpu usage ~5, could be more rti)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast800x50, dbs300x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=800 databasesGroup.topologyReplicas=300`
 	- mawo-loadtest-13917 (ppx couldn't handle the load)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast900x50, dbs450x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=450`
 	- mawo-loadtest-13919 (ppx+1, too much rtr load, ~5cpu usage, check mem-profile)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast900x50, dbs450x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=450`
 	- mawo-loadtest-13921 (ppx+1, a little too much rti still)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast750x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=750 databasesGroup.topologyReplicas=550`
 	- mawo-loadtest-13922 (ppx+1, tba)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast700x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=550`
 	- mawo-loadtest-13923 (ppx+1, tenant split, tba)
