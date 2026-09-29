@@ -48,13 +48,15 @@ collapsed:: true
 	  collapsed:: true
 		- rtr m6a.2xlarge: ast750x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=750 databasesGroup.topologyReplicas=550`
+	- mawo-loadtest-13929 - failed! (ppx+1, tenant split)
+	  collapsed:: true
+		- rtr m6a.2xlarge: 4ast175x50, 4dbs140x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=175 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=140 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
 	- mawo-loadtest-13933 (8 threads for rtr+rti)
+	  collapsed:: true
 		- 9-indexers
 		- rtr m6a.2xlarge: ast800x50, dbs550x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=800 databasesGroup.topologyReplicas=550`
-	- mawo-loadtest-13929 (ppx+1, tenant split, tba)
-		- rtr m6a.2xlarge: 4ast175x50, 4dbs140x50
-		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=175 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=140 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
 	-
 		-
 	-
