@@ -69,14 +69,17 @@ collapsed:: true
 		- rtr m6a.2xlarge: ast700x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=600`
 	- **mawo-loadtest-13944 (4t, m6a, handled perfectly - BASELINE)**
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast725x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
 		- Parent 16.4M/m, Child 16.4M/m, Rti 6.1M/m
 	- mawo-loadtest-13946 (4t, **m7a**, stable, can handle more load)
+	  collapsed:: true
 		- rtr m7a.2xlarge: ast725x50, dbs600x50
 		- same load as baseline
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
 	- mawo-loadtest-13947 (4t, **m8g**, stable, can handle more load)
+	  collapsed:: true
 		- rtr m8g.2xlarge: ast725x50, dbs600x50
 		- same load as baseline
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
