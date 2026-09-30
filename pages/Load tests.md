@@ -80,3 +80,5 @@ collapsed:: true
 		- rtr m8g.2xlarge: ast725x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
 		- ~~Parent 16.4M/m, Child 14.4M/m, Rti 6.1M/m~~
+	- mawo-loadtest-13948 (4t, m6i, TBA)
+-
