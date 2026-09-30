@@ -74,17 +74,18 @@ collapsed:: true
 		- Parent 16.4M/m, Child 16.4M/m, Rti 6.1M/m
 	- mawo-loadtest-13946 (4t, **m7a**, stable, can handle more load)
 		- rtr m7a.2xlarge: ast725x50, dbs600x50
+		- same load as baseline
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
-		- Parent 16.4M/m, Child 16.4M/m, Rti 6.1M/m
 	- mawo-loadtest-13947 (4t, **m8g**, stable, can handle more load)
 		- rtr m8g.2xlarge: ast725x50, dbs600x50
+		- same load as baseline
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
-		- Parent 16.4M/m, Child 16.4M/m, Rti 6.1M/m
 	- mawo-loadtest-13948 (4t, **m6i**, stable, close to baseline?)
 		- 9-indexers.json
+		- same load as baseline
 		- rtr m6i.2xlarge: ast725x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
 	- mawo-loadtest-13949 (**m8g**, more load tba)
 		- rtr m8g.2xlarge: ast900x50, dbs700x50
-		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=700`
 		-
