@@ -6,8 +6,4 @@
 - Wanted to do 6 pods, but then ppx was not scaled enough
 -
 -
-- In the Service-to-service rollout now
-- OnCall rotation?
-- Krankheit
-- Promotion
 -
