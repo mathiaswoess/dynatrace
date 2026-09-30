@@ -84,17 +84,21 @@ collapsed:: true
 		- same load as baseline
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
 	- mawo-loadtest-13948 (4t, **m6i**, stable, close to baseline, could maybe handle more than AMD version)
+	  collapsed:: true
 		- 9-indexers.json
 		- same load as baseline
 		- rtr m6i.2xlarge: ast725x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
 	- mawo-loadtest-13949 (**m8g**, more load, can handle it)
+	  collapsed:: true
 		- rtr m8g.2xlarge: ast900x50, dbs700x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=700`
 	- ~~mawo-loadtest-13951~~ (**m8g**, even more load, a bit too much rtr)
+	  collapsed:: true
 		- rtr m8g.2xlarge: ast1000x50, dbs700x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=1000 databasesGroup.topologyReplicas=700`
-	- mawo-loadtest-13955 (**m8g**, bit less load)
+	- mawo-loadtest-13955 (**m8g**, bit less load, cap found!)
+	  collapsed:: true
 		- rtr m8g.2xlarge: ast975x50, dbs700x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=975 databasesGroup.topologyReplicas=700`
 	-
