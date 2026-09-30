@@ -87,7 +87,7 @@ collapsed:: true
 	- mawo-loadtest-13949 (**m8g**, more load, can handle it)
 		- rtr m8g.2xlarge: ast900x50, dbs700x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=700`
-	- mawo-loadtest-13951 (**m8g**, even more load, can handle it)
+	- ~~mawo-loadtest-13951~~ (**m8g**, even more load, a bit too much rtr)
 		- rtr m8g.2xlarge: ast1000x50, dbs700x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=1000 databasesGroup.topologyReplicas=700`
 		-
