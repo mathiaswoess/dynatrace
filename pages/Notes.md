@@ -7,6 +7,7 @@
 - Error logs ad
 - Early Adopters button js oncall
 - TSG: If link missing - check frontend.id on server span or user event
+- Request more Kafka resources (or contact/warn)
 -
 - Document exact linking rules (like on debug dashboard)
 -
