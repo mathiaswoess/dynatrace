@@ -5,3 +5,5 @@
 - still no rtr statistics - wtf
 - Wanted to do 6 pods, but then ppx was not scaled enough
 -
+-
+- OnCall, promotion
