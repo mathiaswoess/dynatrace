@@ -65,7 +65,6 @@ collapsed:: true
 - ---
 - ### ARCH tests (6 pods 7000m, 240 partitions, same load)
 	- mawo-loadtest-13940 (4 threads, higher load, stable - possible baseline)
-	  collapsed:: true
 		- rtr m6a.2xlarge: ast700x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=600`
 	- **mawo-loadtest-13944 (4t, m6a, handled perfectly - BASELINE)**
