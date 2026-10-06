@@ -1,6 +1,7 @@
 ## Todo:
 - Talk about stream leader
 - Elias' test
+- Compliance training
 -
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
