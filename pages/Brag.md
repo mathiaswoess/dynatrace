@@ -27,4 +27,4 @@
 - Perform exhaustive tests for different architectures to scale out the topology engine with the best hardware cost factor
 - Play major part in getting service-calls-service (biggest and most important feature of topology-engine yet) into the OpenPipeline to enable easy horizontal scaling for big PoCs and unblocking feature moves into OP
 - Create multi-architecture build of topology engine to compare amd64 to arm64 to save costs
-- Move topology engine onto an ARM64-based m8g.2xlarge node group to use more efficient promotional pricing and save roughly 25% of costs (32 pods instead of 45, ~$67000 per year on prod9 instead of ~$87500 per year)
+- Move topology engine onto an ARM64-based m8g.2xlarge node group to use more efficient promotional pricing and save roughly 25% of costs (32 pods instead of 45, around $67000 per year on prod9 instead of ca. $87500 per year)
