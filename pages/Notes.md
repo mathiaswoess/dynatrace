@@ -1,4 +1,7 @@
 ## Todo:
+- Talk about stream leader
+- Elias' test
+-
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
 - Permanent rtr+rti config (and scopes)
@@ -9,6 +12,8 @@
 - TSG: If link missing - check frontend.id on server span or user event
 - Request more Kafka resources (or contact/warn)
 - Watch AI Connect and Research talk
+-
+-
 -
 - Document exact linking rules (like on debug dashboard)
 -
