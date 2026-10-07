@@ -3,6 +3,7 @@
 - Elias' test
 - Compliance training
 - 2nd gen database exp
+- rollout database metrics
 -
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
