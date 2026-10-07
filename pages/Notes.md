@@ -2,6 +2,7 @@
 - Talk about stream leader
 - Elias' test
 - Compliance training
+- 2nd gen database exp
 -
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
