@@ -4,5 +4,6 @@
 - But: target spans contain the LB IP in `network.peer.address` for ALB, NLB and CLB
 - From Smartscape (DAQ) we get the load balancers, which we can join with the/all network interfaces, containing the IP addresses
 - Should think about async/online handling as RTR path is gonna be tight
--
+- Service-to-service works for all LBs, External-to-service might work, Service-to-external will likely not
+- Would focus on first for start
 -
