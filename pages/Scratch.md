@@ -7,4 +7,10 @@
 - Should think about async/online handling as RTR path is gonna be tight
 - Service-to-service works for all LBs, External-to-service might work, Service-to-external will likely not
 - Would focus on first for start
+- Attributes:
+	- `network.peer.address` is the socket peer.
+	- `client.address` is derived by the agent from `X-Forwarded-For` when present.
+	- `server.address` on B's server span is taken from the `Host` header.
+	- ELB health checks show up as server spans with `user_agent.original` = `ELB-HealthChecker/*`; their peer is an LB ENI.
+	- We **could** use the health checks for NLB with preserve-ip
 -
