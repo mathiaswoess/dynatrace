@@ -15,5 +15,5 @@
 - Static linking between LB and target:
 	- We **could** use the health checks for NLB with preserve-ip as they originate from the LB
 	- The CLB has the targets in `instances[].instanceId`
-	-
+- Could do it as RTI, but forwarding the right records to a (new) RTI topic, but would make service-to-load
 -
