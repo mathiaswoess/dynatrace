@@ -2,6 +2,7 @@
 - We go OTel first, so we can't rely on additional attributes for this feature
 - For client (source) spans, investigation shows that we have insufficient data
 - But: target spans contain the LB IP in `network.peer.address` for ALB, NLB and CLB
+- We **always** have the same trace id
 - From Smartscape (DAQ) we get the load balancers, which we can join with the/all network interfaces, containing the IP addresses
 - Should think about async/online handling as RTR path is gonna be tight
 - Service-to-service works for all LBs, External-to-service might work, Service-to-external will likely not
