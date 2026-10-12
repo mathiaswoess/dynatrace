@@ -1,9 +1,23 @@
 ## Todo:
-- Load tests for Azure and GCP
-- Test processor types and arch
-- Tenant affinity?
+- Talk about stream leader
+- Elias' test
+- Compliance training
+- 2nd gen database exp
+- rollout database metrics
 -
-- Sync job not triggering
+- Failing grail queries (timeouts)
+- Tenant affinity (only for outbound customer metrics on generic queue)?
+- Permanent rtr+rti config (and scopes)
+- RTI idle run with more pods
+- maxPollRecords: 1000
+- Error logs ad
+- Early Adopters button js oncall
+- TSG: If link missing - check frontend.id on server span or user event
+- Request more Kafka resources (or contact/warn)
+- Watch AI Connect and Research talk
+-
+-
+-
 - Document exact linking rules (like on debug dashboard)
 -
 - Extend local-infra with new profile to self-monitor it without cluster

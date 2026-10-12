@@ -1,25 +1,104 @@
-### Old ones with m6i.2xlarge unrestricted
--
-- mawo-loadtest-13588 (bit too much RTI)
+### Old ones with m6i.2xlarge unrestricted (much RTI)
+collapsed:: true
+	- mawo-loadtest-13588 (bit too much RTI)
+	  collapsed:: true
+		- CWS: `astroshopGroup.topologyReplicas=270 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=140 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
+		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-08-31T12%3A33%3A00.000000000Z&to=2026-08-31T14%3A58%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13588&vfilter_Tenant=3420b2ac-f1cf-4b24-b62d-61ba1ba8ed05*&vfilter_LogLevel=WARN%2CERROR)
+	- mawo-loadtest-13598 (too much load, tenant affinity)
+	  collapsed:: true
+		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-01T08%3A22%3A00.000000000Z&to=2026-09-01T11%3A02%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13598&vfilter_Pod=*&vfilter_Tenant=*)
+		- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=100 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=300 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
+- ### Load tests (restricted, 3 pods)
   collapsed:: true
-	- CWS: `astroshopGroup.topologyReplicas=270 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=140 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
-	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-08-31T12%3A33%3A00.000000000Z&to=2026-08-31T14%3A58%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13588&vfilter_Tenant=3420b2ac-f1cf-4b24-b62d-61ba1ba8ed05*&vfilter_LogLevel=WARN%2CERROR)
-- mawo-loadtest-13598 (too much load, tenant affinity)
+	- mawo-loadtest-13866 (first 3-indexer one, 8cpus, fine with weird spike)
+	  collapsed:: true
+		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-24T07%3A25%3A00.000000000Z&to=2026-09-24T10%3A00%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13866&vfilter_Pod=*&vfilter_Tenant=*)
+		- CWS: `astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
+	- mawo-loadtest-13875 (3 pods, way too much because small node size)
+	  collapsed:: true
+		- comment: rtr r6a.xlarge: ast260x50, dbs800x100, fnt50x50, mcl50x50
+		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-24T14%3A01%3A00.000000000Z&to=2026-09-24T16%3A26%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13875&vfilter_Pod=*&vfilter_Tenant=*)
+		- CWS: `astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
+		-
+- ### Load tests (restricted, 6 pods with 3250m, 240 partitions)
   collapsed:: true
-	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-01T08%3A22%3A00.000000000Z&to=2026-09-01T11%3A02%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13598&vfilter_Pod=*&vfilter_Tenant=*)
-	- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=100 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=300 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
--
-- ### ARCH tests (restricted)
--
-- mawo-loadtest-13866 (first 3-indexer one, 8cpus, fine with weird spike)
+	- mawo-loadtest-13901 (could handle it easily, weird rti spikes)
+	  collapsed:: true
+		- rtr m6i.2xlarge: ast275x50, dbs800x100
+		- CWS: `astroshopGroup.topologyReplicas=275 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100`
+		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-28T06%3A47Z&to=now%28%29&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13901&vfilter_Pod=*&vfilter_Tenant=*)
+	- mawo-loadtest-13912 (too much load)
+		- rtr m6i.2xlarge: ast350x50, dbs900x100
+		- CWS: `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=350 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=100`
+- ### Load tests (6 pods 7000m, 240 partitions)
   collapsed:: true
-	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-24T07%3A25%3A00.000000000Z&to=2026-09-24T10%3A00%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13866&vfilter_Pod=*&vfilter_Tenant=*)
-	- CWS: `astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
-- mawo-loadtest-13875 (way too much because small node size)
-  collapsed:: true
-	- comment: rtr r6a.xlarge: ast260x50, dbs800x100, fnt50x50, mcl50x50
-	- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-09-24T14%3A01%3A00.000000000Z&to=2026-09-24T16%3A26%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13875&vfilter_Pod=*&vfilter_Tenant=*)
-	- CWS: `astroshopGroup.topologyReplicas=260 databasesGroup.topologyReplicas=800 databasesGroup.patternsPerSec=100 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
-	-
-- mawo-loadtest-13893 (6 pods with 3250mcore, 240 partitions)
+	- mawo-loadtest-13915 (can almost handle it, bit much rtr, but cpu usage ~5, could be more rti)
+	  collapsed:: true
+		- rtr m6a.2xlarge: ast800x50, dbs300x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=800 databasesGroup.topologyReplicas=300`
+	- mawo-loadtest-13917 (ppx couldn't handle the load)
+	  collapsed:: true
+		- rtr m6a.2xlarge: ast900x50, dbs450x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=450`
+	- mawo-loadtest-13919 (ppx+1, too much rtr load, ~5cpu usage, check mem-profile)
+	  collapsed:: true
+		- rtr m6a.2xlarge: ast900x50, dbs450x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=450`
+	- mawo-loadtest-13921 (ppx+1, a little too much rtr still)
+	  collapsed:: true
+		- rtr m6a.2xlarge: ast750x50, dbs550x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=750 databasesGroup.topologyReplicas=550`
+	- ~~mawo-loadtest-13929 - failed! (ppx+1, tenant split)~~
+	  collapsed:: true
+		- rtr m6a.2xlarge: 4ast175x50, 4dbs140x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=175 astroshopGroup.tenantUuids=ast01001,ast00001,ast05001,ast04001 databasesGroup.topologyReplicas=140 databasesGroup.patternsPerSec=100 databasesGroup.tenantUuids=dbs06001,dbs07001,dbs02001,dbs03001`
+	- mawo-loadtest-13933 (8 threads for rtr+rti, kinda worse....)
+	  collapsed:: true
+		- 9-indexers
+		- rtr m6a.2xlarge: ast800x50, dbs550x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=800 databasesGroup.topologyReplicas=550`
+	- mawo-loadtest-13937 (8 threads, lower load, stable, could handle more)
+	  collapsed:: true
+		- 9-indexers
+		- rtr m6a.2xlarge: ast650x50, dbs550x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=650 databasesGroup.topologyReplicas=550`
+- ---
+- ### ARCH tests (6 pods 7000m, 240 partitions, same load)
+	- mawo-loadtest-13940 (4 threads, higher load, stable - possible baseline)
+	  collapsed:: true
+		- rtr m6a.2xlarge: ast700x50, dbs600x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=700 databasesGroup.topologyReplicas=600`
+	- **mawo-loadtest-13944 (4t, m6a, handled perfectly - BASELINE)**
+	  collapsed:: true
+		- rtr m6a.2xlarge: ast725x50, dbs600x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
+		- Parent 16.4M/m, Child 16.4M/m, Rti 6.1M/m
+	- mawo-loadtest-13946 (4t, **m7a**, stable, can handle more load)
+	  collapsed:: true
+		- rtr m7a.2xlarge: ast725x50, dbs600x50
+		- same load as baseline
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
+	- mawo-loadtest-13947 (4t, **m8g**, stable, can handle more load)
+	  collapsed:: true
+		- rtr m8g.2xlarge: ast725x50, dbs600x50
+		- same load as baseline
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
+	- mawo-loadtest-13948 (4t, **m6i**, stable, close to baseline, could maybe handle more than AMD version)
+	  collapsed:: true
+		- 9-indexers.json
+		- same load as baseline
+		- rtr m6i.2xlarge: ast725x50, dbs600x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=725 databasesGroup.topologyReplicas=600`
+	- mawo-loadtest-13949 (**m8g**, more load, can handle it)
+	  collapsed:: true
+		- rtr m8g.2xlarge: ast900x50, dbs700x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=900 databasesGroup.topologyReplicas=700`
+	- ~~mawo-loadtest-13951~~ (**m8g**, even more load, a bit too much rtr)
+	  collapsed:: true
+		- rtr m8g.2xlarge: ast1000x50, dbs700x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=1000 databasesGroup.topologyReplicas=700`
+	- mawo-loadtest-13955 (**m8g**, bit less load, cap found!)
+	  collapsed:: true
+		- rtr m8g.2xlarge: ast975x50, dbs700x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=975 databasesGroup.topologyReplicas=700`
 	-
