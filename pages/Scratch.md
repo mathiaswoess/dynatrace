@@ -1,4 +1,6 @@
 - We have two sources: Smartscape and span signals
 - We go OTel first, so we can't rely on additional attributes for this feature
--
+- For client (source) spans, investigation shows that we have insufficient data
+- But: target spans contain the LB IP in `network.peer.address` for ALB, NLB and CLB
+- From Smartscape (DQ)
 -
