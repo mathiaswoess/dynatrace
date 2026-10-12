@@ -27,6 +27,8 @@ if ! git diff --cached --quiet; then
 	git commit -m "chore: auto-commit $(date +%Y-%m-%d)" || exit 1
 fi
 
+"$repo_dir/sync-main.sh" || { [[ $? -eq 2 ]] && exit 0; exit 1; }
+
 if git diff --quiet origin/main..HEAD; then
 	log "${green}No changes since origin/main. Nothing to do.${nc}"
 	exit 0
@@ -40,7 +42,8 @@ log "Pushing ${yellow}$branch_name${nc}..."
 git push -u origin "$branch_name" || exit 1
 
 log 'Creating Pull Request...'
-gh pr create --fill --head "$branch_name" || exit 1
+pr_url=$(gh pr create --fill --head "$branch_name") || exit 1
+echo "$pr_url" >"$(git rev-parse --git-path pending-pr)"
 
 git branch -d "$branch_name"
 
