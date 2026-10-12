@@ -12,5 +12,8 @@
 	- `client.address` is derived by the agent from `X-Forwarded-For` when present.
 	- `server.address` on B's server span is taken from the `Host` header.
 	- ELB health checks show up as server spans with `user_agent.original` = `ELB-HealthChecker/*`; their peer is an LB ENI.
-	- We **could** use the health checks for NLB with preserve-ip
+- Static linking between LB and target:
+	- We **could** use the health checks for NLB with preserve-ip as they originate from the LB
+	- The CLB has the targets in `instances[].instanceId`
+	-
 -
