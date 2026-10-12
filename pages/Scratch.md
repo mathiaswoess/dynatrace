@@ -18,4 +18,4 @@
 - Could do it as RTI, but forwarding the right records to a (new) RTI topic, but would make service-to-LB connection harder. It WILL however relax the RTR hot-path.
 -
 - Are we talking about calls edges?
--
+- Should we link only once side too?
