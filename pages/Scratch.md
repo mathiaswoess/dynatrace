@@ -1,9 +1,5 @@
-- actually only 3250m and available
-- no support for azure, gcp in self-service
-- build is now + arm
-- now doing 6 topos with 3250cpu limit and 28gig
-- still no rtr statistics - wtf
-- Wanted to do 6 pods, but then ppx was not scaled enough
+- Took over PPX PR
+- Have to benchmark serde
 -
 -
 -
