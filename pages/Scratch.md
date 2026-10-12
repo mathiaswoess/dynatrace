@@ -1,5 +1,4 @@
-- Took over PPX PR
-- Have to benchmark serde
--
+- We have two sources: Smartscape and span signals
+- We go OTel first, so we can't rely on additional attributes for this feature
 -
 -
