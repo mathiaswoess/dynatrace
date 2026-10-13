@@ -27,6 +27,8 @@
 		- Since vl 17: elligible for bonus: performance based - up to 10% extra
 		- Stocks 40-50k für p4, 15-25k für p3
 		- Important is also: am I an VI / Epic drivers
-		- Abhöngigkeiten, design, Kommunikation
-		- P4: = P3 (softwreaentw. onboarding, team-level impact) + P4 (ausserhalb team, inter-cap impact, stakeholder, eh default mit topo engine)
-		- P5 woudl be outside cap
+		- Impact: create ADRs, Design decisions, Dependencies, communication
+		- P4: = P3 (softwreaentw. onboarding, team-level impact) + P4 (outside team, inter-cap impact, stakeholder, default with topo engine anyway)
+		- P5 woudl be: outside cap impact
+-
+-
