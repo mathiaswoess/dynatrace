@@ -1,5 +1,5 @@
-- Kein besserer slot gefunden, hoffe es passt, hast Zeit
-- Wille - sucks^^
+- Slot passt? keine Konflikte?
+- Situation mit Wille - sucks^^
 - Gut das ich stress resistent bin
 - Holzklopf^^
 - Muss etwas carry-en
@@ -9,5 +9,6 @@
 - 3y zu lange, in 1 jahr bin ich experte
 - Wenn ich's krieg - 5y beweisen dass verdient mit 120%
 - Wenn nicht - 3y silent mit 115%, kündige deswegen nicht
-- Aber a
+- Aber bisschen den Backendentwickler Mangel ausnützten
+- Wenn's für dich passt, würde ich gerne probieren, mehr als Ablehnung kann ich nicht kriegen
 -
