@@ -1,0 +1,4 @@
+- Wille - sucks^^
+- Gut das ich stress resistent bin
+- Muss etwas carry-en
+-
