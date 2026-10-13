@@ -1,10 +1,10 @@
-- Slot passt? keine Konflikte?
+- Nicht leicht einen Termin zu kriegen :D ? keine Konflikte?
 - Situation mit Wille - sucks^^
 - Gut das ich stress resistent bin
 - Holzklopf^^
 - Muss etwas carry-en
 - Geh normal ned Gehalt fordern, des würde alles erledigen
-- Nach lebenslangem Enthusiasmus ... mittlerweile seit 12.5 Jahren Enterprise Softwareentwicklung
+- Nach lebenslangem Enthusiasmus, Master-ab ... mittlerweile seit 12.5 Jahren Enterprise Softwareentwicklung
 - Bin absolut qualifiziert. Viellecht noch nicht mit 100% domain knowledge drinnen
 - 3y zu lange, in 1 jahr bin ich experte
 - Wenn ich's krieg - 5y beweisen dass verdient mit 120%
@@ -13,4 +13,4 @@
 - Wenn's für dich passt, würde ich gerne probieren, mehr als Ablehnung kann ich nicht kriegen
 -
 -
-- Brag -
+- Brag
