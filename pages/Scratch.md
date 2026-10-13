@@ -1,8 +1,11 @@
 - Wille - sucks^^
 - Gut das ich stress resistent bin
+- Holzklopf^^
 - Muss etwas carry-en
 - Geh normal ned Gehalt fordern, des würde alles erledigen
-- Mittlerweile seit 12.5 Jahren Enterprise Softwareentwicklung
+- Nach lebenslangem Enthusiasmus ... mittlerweile seit 12.5 Jahren Enterprise Softwareentwicklung
+- Bin absolut qualifiziert. Viellecht noch nicht mit 100% domain knowledge drinnen
+- 3y zu lange, in 1 jahr bin ich experte
 - Wenn ich's krieg - 5y beweisen dass verdient mit 120%
 - Wenn nicht - 3y silent mit 115%
 -
