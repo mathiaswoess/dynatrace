@@ -19,4 +19,6 @@
 - Christian, Lukas, Rene,
 - <150%, wo hab ich schon auf Sr Level 2 agiert
 - Situation ist wichtig
--
+- carreer path - linked in link
+- Impact - brag doc
+- Gehört möglich
