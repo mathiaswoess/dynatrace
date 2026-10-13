@@ -20,4 +20,4 @@
 -
 - Are we talking about calls edges?
 - Should we link only once side too?
-- Do we needs
+- Do we need RTI metrics?
