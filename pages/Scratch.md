@@ -28,4 +28,5 @@
 - Urgency/Timing: now - warum
 - DU agierst, brauchen wir
 - Approved/deferred
+- Ab lvl 17: bonus: performance based - bis zu 10%
 -
