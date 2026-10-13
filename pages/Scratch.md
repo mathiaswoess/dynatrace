@@ -1,4 +1,8 @@
 - Wille - sucks^^
 - Gut das ich stress resistent bin
 - Muss etwas carry-en
+- Geh normal ned Gehalt fordern, des würde alles erledigen
+- Mittlerweile seit 12.5 Jahren Enterprise Softwareentwicklung
+- Wenn ich's krieg - 5y beweisen dass verdient mit 120%
+- Wenn nicht - 3y silent mit 115%
 -
