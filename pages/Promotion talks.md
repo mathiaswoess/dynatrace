@@ -1,2 +1,33 @@
 ### 13.10.2026:
-	-
+	- Agenda prep:
+		- Nicht leicht einen Termin zu kriegen :D ? keine Konflikte?
+		- Situation mit Wille - sucks^^
+		- Gut das ich stress resistent bin
+		- Holzklopf^^
+		- Muss etwas carry-en
+		- Geh normal ned Gehalt fordern, des würde alles erledigen
+		- Nach lebenslangem Enthusiasmus, Ausgezeichneten Master-abschluss ... mittlerweile seit 12.5 Jahren Enterprise Softwareentwicklung
+		- Bin absolut qualifiziert. Viellecht noch nicht mit 100% domain knowledge drinnen
+		- 3y zu lange, in 1 jahr bin ich experte
+		- Wenn ich's krieg - 5y beweisen dass verdient mit 120%
+		- Wenn nicht - 3y silent mit 115%, kündige deswegen nicht
+		- Aber bisschen den Backendentwickler Mangel ausnützten
+		- Wenn's für dich passt, würde ich gerne probieren, mehr als Ablehnung kann ich nicht kriegen
+	- Talk
+		- Need Quotes from e.g. Christian, Lukas, Rene himself,...
+		- qote. <150 words, where did i act on senior II level already, describing situations matters
+		- Carreer path: Linked in link would be enough
+		- Most important: Impact - brag doc
+		- Gehört möglich - zeitmäßig mb later
+		- Accomplishments: CI handling, topo GA,
+		- Add P4/L17 in die Zeile
+		- Kann mit Claude gemacht werden und konsumiert werden
+		- Urgency/Timing: now - warum
+		- DU agierst, brauchen wir
+		- Approved/deferred
+		- Ab lvl 17: bonus: performance based - bis zu 10%
+		- 40-50k für p4, 15-25k für p3 - akten
+		- VI / Epic drivers
+		- Abhöngigkeiten, design, Kommunikation
+		- P4: = P3 (softwreaentw. onboarding, team-level impact) + P4 (ausserhalb team, inter-cap impact, stakeholder, eh default mit topo engine)
+		- P5 woudl be outside cap
