@@ -27,3 +27,5 @@
 - Kann mit Claude gemacht werden und konsumiert werden
 - Urgency/Timing: now - warum
 - DU agierst, brauchen wir
+- Approved/deferred
+-
