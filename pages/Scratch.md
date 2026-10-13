@@ -21,3 +21,4 @@
 - Are we talking about calls edges?
 - Should we link only once side too?
 - Do we need RTI metrics?
+- Separation of concerns - keeping the RTR key minimal.
