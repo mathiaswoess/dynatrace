@@ -21,4 +21,8 @@
 - Situation ist wichtig
 - carreer path - linked in link
 - Impact - brag doc
-- Gehört möglich
+- Gehört möglich - zeitmäßig mb later
+- Accomplishments: CI handling, topo GA,
+- Add P4/L17 in die Zeile
+- Kann mit Claude gemacht werden konsumiert werden
+-
