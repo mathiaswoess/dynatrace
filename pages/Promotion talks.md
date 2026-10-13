@@ -21,13 +21,12 @@
 		- Most important: Impact - brag doc
 		- Based on what Rene heard about me, possible - but likely not until June
 		- Further Accomplishments: CI handling, topo GA, cross-communications,...
-		- Add P4/L17 in the Brag document lines
-		- Urgency/Timing: now - warum
-		- DU agierst, brauchen wir
-		- Approved/deferred
-		- Ab lvl 17: bonus: performance based - bis zu 10%
-		- 40-50k für p4, 15-25k für p3 - akten
-		- VI / Epic drivers
+		- Add P4/L17 in the Brag document lines, then let claude cosume it and write it well
+		- Urgency/Timing: he would set "now" here. "Retention" is an option
+		- Request might be then approved/deferred, then we have no more control over it.
+		- Since vl 17: elligible for bonus: performance based - up to 10% extra
+		- Stocks 40-50k für p4, 15-25k für p3
+		- Important is also: am I an VI / Epic drivers
 		- Abhöngigkeiten, design, Kommunikation
 		- P4: = P3 (softwreaentw. onboarding, team-level impact) + P4 (ausserhalb team, inter-cap impact, stakeholder, eh default mit topo engine)
 		- P5 woudl be outside cap
