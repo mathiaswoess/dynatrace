@@ -30,3 +30,4 @@
 - Approved/deferred
 - Ab lvl 17: bonus: performance based - bis zu 10%
 - 40-50k für p4, 15-25k für p3 - akten
+- VI / Epic drivers
