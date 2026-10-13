@@ -14,14 +14,14 @@
 		- Aber bisschen den Backendentwickler Mangel ausnützten
 		- Wenn's für dich passt, würde ich gerne probieren, mehr als Ablehnung kann ich nicht kriegen
 	- Talk
+		- ![image.png](../assets/image_1791895754117_0.png)
 		- Need Quotes from e.g. Christian, Lukas, Rene himself,...
 		- qote. <150 words, where did i act on senior II level already, describing situations matters
 		- Carreer path: Linked in link would be enough
 		- Most important: Impact - brag doc
-		- Gehört möglich - zeitmäßig mb later
-		- Accomplishments: CI handling, topo GA,
-		- Add P4/L17 in die Zeile
-		- Kann mit Claude gemacht werden und konsumiert werden
+		- Based on what Rene heard about me, possible - but likely not until June
+		- Further Accomplishments: CI handling, topo GA, cross-communications,...
+		- Add P4/L17 in the Brag document lines
 		- Urgency/Timing: now - warum
 		- DU agierst, brauchen wir
 		- Approved/deferred
