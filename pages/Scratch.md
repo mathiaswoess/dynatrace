@@ -1,3 +1,4 @@
+- Kein besserer slot gefunden, hoffe es passt, hast Zeit
 - Wille - sucks^^
 - Gut das ich stress resistent bin
 - Holzklopf^^
@@ -7,5 +8,6 @@
 - Bin absolut qualifiziert. Viellecht noch nicht mit 100% domain knowledge drinnen
 - 3y zu lange, in 1 jahr bin ich experte
 - Wenn ich's krieg - 5y beweisen dass verdient mit 120%
-- Wenn nicht - 3y silent mit 115%
+- Wenn nicht - 3y silent mit 115%, kündige deswegen nicht
+- Aber a
 -
