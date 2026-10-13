@@ -2,7 +2,10 @@
 - Talk about stream leader
 - Compliance training
 - 2nd gen database exp
-- rollout database metrics
+- rollout database metrics - Load test
+- Service deployment on Topo side
+- LB on CWS
+- Migrate CWS to native
 -
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
