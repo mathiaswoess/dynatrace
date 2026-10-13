@@ -32,4 +32,6 @@
 - 40-50k für p4, 15-25k für p3 - akten
 - VI / Epic drivers
 - Abhöngigkeiten, design, Kommunikation
-- P4: = P3 (softwreaentw. onboarding, team-level impact) + P4 (ausserhalb team, inter-cap)
+- P4: = P3 (softwreaentw. onboarding, team-level impact) + P4 (ausserhalb team, inter-cap impact, stakeholder, eh default mit topo engine)
+- P5 woudl be outside cap
+-
