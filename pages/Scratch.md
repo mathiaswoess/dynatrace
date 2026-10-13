@@ -16,4 +16,7 @@
 - Brag
 -
 -
-- <150%, wo hab ich schon auf
+- Christian, Lukas, Rene,
+- <150%, wo hab ich schon auf Sr Level 2 agiert
+- Situation ist wichtig
+-
