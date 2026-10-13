@@ -14,3 +14,6 @@
 -
 -
 - Brag
+-
+-
+- <150%, wo hab ich schon auf
