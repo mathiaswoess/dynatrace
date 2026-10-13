@@ -12,3 +12,5 @@
 - Aber bisschen den Backendentwickler Mangel ausnützten
 - Wenn's für dich passt, würde ich gerne probieren, mehr als Ablehnung kann ich nicht kriegen
 -
+-
+- Brag -
