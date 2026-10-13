@@ -24,5 +24,6 @@
 - Gehört möglich - zeitmäßig mb later
 - Accomplishments: CI handling, topo GA,
 - Add P4/L17 in die Zeile
-- Kann mit Claude gemacht werden konsumiert werden
--
+- Kann mit Claude gemacht werden und konsumiert werden
+- Urgency/Timing: now - warum
+- DU agierst, brauchen wir
