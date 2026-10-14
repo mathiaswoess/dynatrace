@@ -6,6 +6,7 @@
 - Re-emitting when an entity is recreated with different ID should not be needed (and does not happen for other nodes and paths)
 - There's no test with several sources and several targets on one key.
 - Docs: they say "the join is therefore n:n". That follows from the data structure, not from a known entity pairing.
+- Test refers to itself.
 -
 -
 - The symmetric design is still a reasonable simplification.
