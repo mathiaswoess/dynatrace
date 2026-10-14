@@ -3,4 +3,9 @@
 - Cross-join complexity and re-emission might be too much
 - Re-emitting when an entity is recreated with different ID should not be needed (and does not happen for other nodes and paths)
 - There's no test with several sources and several targets on one key.
+- Docs: they say "the join is therefore n:n". That follows from the data structure, not from a known entity pairing.
 -
+-
+- The symmetric design is still a reasonable simplification.
+- Please state explicitly that this is just for consolidation reasons.
+- Would prefer OneToMany or ManyToOne implementations (with code-)
