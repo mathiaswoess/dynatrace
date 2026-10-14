@@ -1,3 +1,5 @@
+- CWS: check 1h retention/keep-alive
+-
 - Do you actually need n:n, or just n:1 additionally to 1:n
 - The memory and size is now unbounded
 - Cross-join complexity and re-emission might be too much
