@@ -8,4 +8,4 @@
 -
 - The symmetric design is still a reasonable simplification.
 - Please state explicitly that this is just for consolidation reasons.
-- Would prefer OneToMany or ManyToOne implementations (with code-)
+- Would prefer OneToMany or ManyToOne implementations (with code reuse)
