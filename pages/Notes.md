@@ -6,6 +6,7 @@
 - Service deployment on Topo side
 - LB on CWS
 - Open PR about MSSQL
+- Fix DB_DATABASE (with table) links in #CWS
 -
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
