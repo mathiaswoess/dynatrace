@@ -30,3 +30,5 @@
 - Move topology engine onto an ARM64-based m8g.2xlarge node group to use more efficient promotional pricing and save roughly 25% of costs (32 pods instead of 45, around $67000 per year on prod9 instead of ca. $87500 per year)
 - Complete feature for carrying and using attributes to link SERVICE_DEPLOYMENT in the service-calls-service path
 - Contribute to CWS and nito self-service in a major way
+- Handle RFAs and help channel support requests
+- Drive VI about Load balancers and contribute in it's design and visualization options
