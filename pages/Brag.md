@@ -7,7 +7,7 @@
 - Perform backporting and hotfixing of urgent fixes and improvements into all rollout stages without any interruptions or rollbacks.
 - Optimize the topology-engine for best performance, minimal memory overhead and lean resource usage.
 - Deliver database query error count and duration metrics necessary for effective root cause analysis and causal AI and for feature parity of the displayed data in the database app without relying on the 2nd gen cluster. This speeds up the transition of our customers to pure 3rd gen clusters.
-- Identify and fix a double-booking issue where database leaf client spans also landed in the topology-engine's parent topic (due to being span-kind client). This almost halves the load on the parent Kafka topic and significantly reduces topology-engine load, saving large amount of hardware spend.
+- Identify and fix a double-booking issue where database leaf client spans also landed in the topology-engine's parent topic (due to being span-kind "client"). This almost halves the load on the parent Kafka topic and significantly reduces topology-engine load, saving large amount of hardware spend.
 -
 - Enable load testing of modern 3rd-gen only ingest for dynamic topology patterns
 	- New clusterworkloadsimulator pattern to ingest directly into 3rd gen
@@ -28,3 +28,7 @@
 - Play major part in getting service-calls-service (biggest and most important feature of topology-engine yet) into the OpenPipeline to enable easy horizontal scaling for big PoCs and unblocking feature moves into OP
 - Create multi-architecture build of topology engine to compare amd64 to arm64 to save costs
 - Move topology engine onto an ARM64-based m8g.2xlarge node group to use more efficient promotional pricing and save roughly 25% of costs (32 pods instead of 45, around $67000 per year on prod9 instead of ca. $87500 per year)
+- Complete feature for carrying and using attributes to link SERVICE_DEPLOYMENT in the service-calls-service path
+- Contribute to CWS and nito self-service in a major way
+- Handle RFAs and help channel support requests
+- Drive VI about Load balancers and contribute in it's design and visualization options

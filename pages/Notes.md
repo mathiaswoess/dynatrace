@@ -1,9 +1,12 @@
 ## Todo:
 - Talk about stream leader
-- Elias' test
 - Compliance training
 - 2nd gen database exp
-- rollout database metrics
+- rollout database metrics - Load test
+- Service deployment on Topo side
+- LB on CWS
+- Open PR about MSSQL
+- Fix DB_DATABASE (with table) links in #CWS
 -
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
@@ -22,7 +25,6 @@
 -
 - Extend local-infra with new profile to self-monitor it without cluster
 -
-- PR for segment-indexer-manager-deployment-* UnknownHostException: dps-ingest.dps-ingest.svc.cluster.local
 - Repository rules (disclaimer for PRs)
 - Update cws config scopes regularly via Job?
 -
