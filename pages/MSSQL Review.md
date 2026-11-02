@@ -1,0 +1,34 @@
+- Ticket was a bit confusing.
+- Would have been easier to review if multiple PRs or separate commits^^
+- Local infra would have been nice. If you start it with skaffold you can see sucessful linking in the viz at http://
+- What about the DB_DATABASE_MSSQL entities? They are still handled by the generic linker. When an azure database with a table name is instrumented, does the extension create these instances? (TODO: check sfm tenants)
+- Why not specialized bean (why router class?) they would share the same query anyway.
+- Other engine != other system? Just not Azure?
+- engine_edition = 5 is really == azure? Is this documented?
+- About rollout and FF: you are the experts. If it's linked wrong now - no need
+- Is the 0-port behavior similar for other DB extensions?
+- Sounds like the extension makes mistake with db.namespace being used for db_instance?
+- Other "engines" than "instance" and "azdb"? what has instance to do with engine?
+- Is server.port really enough for matching?
+- Docs: move "this applies to every loader" to general section.
+- Do we really need to "azdb" placeholder?
+- Maybe align `mssql_azure_sql_db_not_named` with other CamelCase reasons (see `kafka.record.dropped.count`)
+- Did you try with OTel?
+- Collision counts per key, not per entity pair
+- every DB_INSTANCE fetch, not just MSSQL, now pulls the new MSSQL columns
+- if `engine_edition` doesn't exist in Grail, Azure SQL DB never matches
+- mixed spelling "specialised"
+-
+- Really good PR!
+- Sorry for the many review comments.
+- Would have really appreciated split PRs or multiple commits.
+- Something maybe behind FF?
+- Feel free to push back on stuff
+- Feel free to extend our dashboard in follow-up
+- For the future, and ADR might make sense first.
+-
+- TODO: check for performance (hot path)
+- TODO: mssqlinstancekeyproducer - does it coalesce IP addresses? Seb's stuff.
+- TODO: CWS
+- TODO: check 32 cases test
+- TODO: check infra

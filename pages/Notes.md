@@ -1,12 +1,18 @@
 ## Todo:
+- Scaling: node scale, partitions, Kafka?
+- Metric default value change?
+- Update all outdated docs
+- Local infra SD
+- Review k8s-node draft PR for CWS - on hold
+-
 - Talk about stream leader
-- Compliance training
-- 2nd gen database exp
-- rollout database metrics - Load test
-- Service deployment on Topo side
 - LB on CWS
-- Open PR about MSSQL
-- Fix DB_DATABASE (with table) links in #CWS
+- Update nito script with new profiling app
+- Host/Process FF on?
+- Look into whether Host linker resolves keys from every span before resolve+gating flag.
+- Unexpected non-string value for RTI span attribute ServerAddress: [STRING:aws-rds-pix-core-use1-prd.cluster-c7ek4c2k0l3h.us-east-1.rds.amazonaws.com]
+- Lunchit Submit your ticket and add "switch to canteen deduction due to relocatino" in the comments section November 26 [link](https://dynatrace.sharepoint.com/:p:/r/sites/Linz/_layouts/15/Doc.aspx?sourcedoc=%7BA5DE996B-3F23-4672-AC9D-DAC1235434B9%7D&file=UpperAustriaSync_slidedeck_October.pptx&action=edit&mobileredirect=true&wdwpf=doclib-t)
+- Repository rules (disclaimer for PRs)
 -
 - Failing grail queries (timeouts)
 - Tenant affinity (only for outbound customer metrics on generic queue)?
@@ -16,16 +22,12 @@
 - Error logs ad
 - Early Adopters button js oncall
 - TSG: If link missing - check frontend.id on server span or user event
-- Request more Kafka resources (or contact/warn)
 - Watch AI Connect and Research talk
--
--
 -
 - Document exact linking rules (like on debug dashboard)
 -
 - Extend local-infra with new profile to self-monitor it without cluster
 -
-- Repository rules (disclaimer for PRs)
 - Update cws config scopes regularly via Job?
 -
 - Retire slack TODO board?^^

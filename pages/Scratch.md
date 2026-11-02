@@ -1,2 +1,2 @@
-- CWS: check 1h retention/keep-alive
--
+- Refactor parseNode to be more generic / with subclasses
+- Pre-compute synth ID in spec

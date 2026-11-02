@@ -101,4 +101,8 @@ collapsed:: true
 	  collapsed:: true
 		- rtr m8g.2xlarge: ast975x50, dbs700x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=975 databasesGroup.topologyReplicas=700`
-	-
+	- mawo-loadtest-14215 (**m6a**, a little more than baseline, mostly stable with slight bump at end)
+		- rtr m6a.2xlarge: ast740x50, dbs600x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=740 databasesGroup.topologyReplicas=600`
+		-
+-
