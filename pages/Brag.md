@@ -7,6 +7,7 @@
 - Perform backporting and hotfixing of urgent fixes and improvements into all rollout stages without any interruptions or rollbacks.
 - Optimize the topology-engine for best performance, minimal memory overhead and lean resource usage.
 - Deliver database query error count and duration metrics necessary for effective root cause analysis and causal AI and for feature parity of the displayed data in the database app without relying on the 2nd gen cluster. This speeds up the transition of our customers to pure 3rd gen clusters.
+- Safely roll out the two additional database metrics to dev, hardening then production. Unlocks the new service map to use it for richer context for customers.
 - Identify and fix a double-booking issue where database leaf client spans also landed in the topology-engine's parent topic (due to being span-kind "client"). This almost halves the load on the parent Kafka topic and significantly reduces topology-engine load, saving large amount of hardware spend.
 -
 - Enable load testing of modern 3rd-gen only ingest for dynamic topology patterns
@@ -32,3 +33,5 @@
 - Contribute to CWS and nito self-service in a major way
 - Handle RFAs and help channel support requests
 - Drive VI about Load balancers and contribute in it's design and visualization options
+- Run extensive benchmarks to find the best possible Serde representation of conditional RTR records in the topology-engine RTR state store to support SERVICE_DEPLOYMENTS (and future additional attributes) while maintaining best service-to-service linking performance. [P17, Senior II Dev]
+- Provide accurate mock data for early UI development of cloud load balancers before linking is implemented. Eases collaboration, finding early no-gos and speeds up final delivery of the VI.
