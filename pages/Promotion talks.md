@@ -30,5 +30,11 @@
 		- Impact: create ADRs, Design decisions, Dependencies, communication
 		- P4: = P3 (softwreaentw. onboarding, team-level impact) + P4 (outside team, inter-cap impact, stakeholder, default with topo engine anyway)
 		- P5 woudl be: outside cap impact
--
+- **03.11.2026**
+	- Get quotes from min. 3 people: Christian and Rene will write, ask Wille, maybe Lukas
+	- "How was cruise?"
+	- About HQ and after-work food
+	- Is Wille still stream lead, should we sync? -> next week.
+	-
+	-
 -
