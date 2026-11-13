@@ -1,7 +1,6 @@
 ### Old ones with m6i.2xlarge unrestricted (much RTI)
 collapsed:: true
 	- mawo-loadtest-13588 (bit too much RTI)
-	  collapsed:: true
 		- CWS: `astroshopGroup.topologyReplicas=270 databasesGroup.topologyReplicas=900 databasesGroup.patternsPerSec=140 frontendsGroup.topologyReplicas=50 multicloudGroup.topologyReplicas=50`
 		- [OnCall Dashboard](https://fuo65414.sprint.apps.dynatracelabs.com/ui/apps/dynatrace.dashboards/dashboard/4057290c-0ea3-4bc1-8a54-203309239b1e#from=2026-08-31T12%3A33%3A00.000000000Z&to=2026-08-31T14%3A58%3A00.000000000Z&tileIds=&vfilter_ServiceName=topology-engine&vfilter_K8_Cluster=mawo-loadtest-13588&vfilter_Tenant=3420b2ac-f1cf-4b24-b62d-61ba1ba8ed05*&vfilter_LogLevel=WARN%2CERROR)
 	- mawo-loadtest-13598 (too much load, tenant affinity)
@@ -64,6 +63,7 @@ collapsed:: true
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=650 databasesGroup.topologyReplicas=550`
 - ---
 - ### ARCH tests (6 pods 7000m, 240 partitions, same load)
+  collapsed:: true
 	- mawo-loadtest-13940 (4 threads, higher load, stable - possible baseline)
 	  collapsed:: true
 		- rtr m6a.2xlarge: ast700x50, dbs600x50
@@ -102,7 +102,20 @@ collapsed:: true
 		- rtr m8g.2xlarge: ast975x50, dbs700x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=975 databasesGroup.topologyReplicas=700`
 	- mawo-loadtest-14215 (**m6a**, a little more than baseline, mostly stable with slight bump at end)
+	  collapsed:: true
 		- rtr m6a.2xlarge: ast740x50, dbs600x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=740 databasesGroup.topologyReplicas=600`
 		-
+- ---
+- ### Load tests (3 pods, m6i)
+	- mawo-loadtest-14365 (RTI+rum, perfectly hadled)
+		- rti+rum default config
+	- mawo-loadtest-14366 (RTI+rum, 2 consumer concurrency, not able to hadle it!)
+		- rti+rum default config
+	- mawo-loadtest-14370 (RTR, baseline load - half of arch tests 6 pods)
+		- rtr m6i.2xlarge: ast365x50, dbs300x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=365 databasesGroup.topologyReplicas=300`
+	- mawo-loadtest-14370 (RTR, baseline load, two stream threads, not able to handle it either!)
+		- rtr m6i.2xlarge: ast365x50, dbs300x50
+		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=365 databasesGroup.topologyReplicas=300`
 -

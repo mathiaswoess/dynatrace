@@ -1,2 +1,10 @@
 - Refactor parseNode to be more generic / with subclasses
 - Pre-compute synth ID in spec
+- or... ResolvedNode with only jitter/error rng
+- Make host/process a boolean on database
+- Remove unused constant
+- Rename serverPort to port
+- Monster class
+- Screenshot of topology
+- Connections to eni
+- Wrong edge

@@ -1,13 +1,16 @@
 ## Todo:
 - Scaling: node scale, partitions, Kafka?
-- Metric default value change?
 - Update all outdated docs
 - Local infra SD
 - Review k8s-node draft PR for CWS - on hold
+- Zoom reservation
+- Update CWS image with new names
+- Scale back on kafka partitions? Load tests
+- systemd service for lb loadgen
+-
+- Maybe there should be edges between lb and enis from DAQ
 -
 - Talk about stream leader
-- LB on CWS
-- Update nito script with new profiling app
 - Host/Process FF on?
 - Look into whether Host linker resolves keys from every span before resolve+gating flag.
 - Unexpected non-string value for RTI span attribute ServerAddress: [STRING:aws-rds-pix-core-use1-prd.cluster-c7ek4c2k0l3h.us-east-1.rds.amazonaws.com]
@@ -29,6 +32,7 @@
 - Extend local-infra with new profile to self-monitor it without cluster
 -
 - Update cws config scopes regularly via Job?
+- Check if `SDV2_STEPS_IN_PPX_MARKER_KEY = "dt.appobs-31282"` should already be in the CWS span header (like `dt.appobs-949`). The flag `ppx-enable-sdv2-pipeline-processors-prototype` must be enabled for that.
 -
 - Retire slack TODO board?^^
 - Provide OTel CWS pattern example

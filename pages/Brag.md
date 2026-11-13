@@ -35,3 +35,5 @@
 - Drive VI about Load balancers and contribute in it's design and visualization options
 - Run extensive benchmarks to find the best possible Serde representation of conditional RTR records in the topology-engine RTR state store to support SERVICE_DEPLOYMENTS (and future additional attributes) while maintaining best service-to-service linking performance. [P17, Senior II Dev]
 - Provide accurate mock data for early UI development of cloud load balancers before linking is implemented. Eases collaboration, finding early no-gos and speeds up final delivery of the VI.
+- Product-owner activities (writing epics for VIs, splitting epics into stories,...)
+- Major progress on cloud load balancers (VI planning, topology-engine approach, CWS support, mock data for UI team), resolving adoption blocker from 2nd gen to 3rd gen for many customers (hairball effect).

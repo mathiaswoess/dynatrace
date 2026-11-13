@@ -47,7 +47,7 @@ log "Pushing ${yellow}$branch_name${nc}..."
 git push -u origin "$branch_name" || exit 1
 
 log 'Creating Pull Request...'
-gh pr create --fill --head "$branch_name" || exit 1
+GH_TOKEN=$(gh auth token -u mathiaswoess) gh pr create --fill --head "$branch_name" || exit 1
 
 git branch -d "$branch_name"
 
