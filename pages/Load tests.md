@@ -109,13 +109,17 @@ collapsed:: true
 - ---
 - ### Load tests (3 pods, m6i)
 	- mawo-loadtest-14365 (RTI+rum, perfectly hadled)
+	  collapsed:: true
 		- rti+rum default config
 	- mawo-loadtest-14366 (RTI+rum, 2 consumer concurrency, not able to hadle it!)
+	  collapsed:: true
 		- rti+rum default config
 	- mawo-loadtest-14370 (RTR, baseline load - half of arch tests 6 pods)
+	  collapsed:: true
 		- rtr m6i.2xlarge: ast365x50, dbs300x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=365 databasesGroup.topologyReplicas=300`
-	- mawo-loadtest-14370 (RTR, baseline load, two stream threads, not able to handle it either!)
+	- mawo-loadtest-14371 (RTR, baseline load, two stream threads, not able to handle it either!)
+	  collapsed:: true
 		- rtr m6i.2xlarge: ast365x50, dbs300x50
 		- `activeTenantGroups=astroshopGroup,databasesGroup astroshopGroup.topologyReplicas=365 databasesGroup.topologyReplicas=300`
 -

@@ -1,20 +1,18 @@
 ## Todo:
-- Scaling: node scale, partitions, Kafka?
+- Benchmark RTR serde
+- Check runbooks and TSG
+-
+- dry-run on prod1 as soon as rolled out
 - Update all outdated docs
 - Local infra SD
-- Review k8s-node draft PR for CWS - on hold
-- Zoom reservation
 - Update CWS image with new names
-- Scale back on kafka partitions? Load tests
-- systemd service for lb loadgen
 -
+- (on hold) Review k8s-node draft PR for CWS
+- Remove FF override for proc/host and metrics
 - Maybe there should be edges between lb and enis from DAQ
 -
-- Talk about stream leader
-- Host/Process FF on?
+-
 - Look into whether Host linker resolves keys from every span before resolve+gating flag.
-- Unexpected non-string value for RTI span attribute ServerAddress: [STRING:aws-rds-pix-core-use1-prd.cluster-c7ek4c2k0l3h.us-east-1.rds.amazonaws.com]
-- Lunchit Submit your ticket and add "switch to canteen deduction due to relocatino" in the comments section November 26 [link](https://dynatrace.sharepoint.com/:p:/r/sites/Linz/_layouts/15/Doc.aspx?sourcedoc=%7BA5DE996B-3F23-4672-AC9D-DAC1235434B9%7D&file=UpperAustriaSync_slidedeck_October.pptx&action=edit&mobileredirect=true&wdwpf=doclib-t)
 - Repository rules (disclaimer for PRs)
 -
 - Failing grail queries (timeouts)
