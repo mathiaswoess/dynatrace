@@ -1,6 +1,13 @@
 ## Todo:
 - Benchmark RTR serde
 - Check runbooks and TSG
+- Measure 2nd gen cluster effect
+- Can example rca be replaced once rca merged
+- Knowlege sharing? SLO observability?
+- Comet Factory
+- How is jmh doing Wille?
+- ZOS? :D
+-
 -
 - dry-run on prod1 as soon as rolled out
 - Update all outdated docs
