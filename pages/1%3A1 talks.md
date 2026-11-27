@@ -35,6 +35,6 @@
 	- "How was cruise?"
 	- About HQ and after-work food
 	- Is Wille still stream lead, should we sync? -> next week.
-	-
-	-
+- **25.11.2026**
+-
 -
